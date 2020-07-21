@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1595343147 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
+	<iostream>
+	<string>
+	"course.h"
+
+1595343703 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
+	<iostream>
+	<string>
+
+1595352758 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
+	<iostream>
+	<string>
+	"base.h"
+
+1595343152 c:\users\hp\documents\cpp\assignment-2\course.h
+	<iostream>
+	<string>
+
+1595347062 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
+	<iostream>
+	<string>
+
+1595352265 c:\users\hp\documents\cpp\assignment-2\base.h
+	<iostream>
+	<string.h>
+
+1595359534 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
+	<iostream>
+	<string>
+	"person.h"
+
+1595359522 c:\users\hp\documents\cpp\assignment-2\person.h
+	<iostream>
+	<string.h>
+	"base.h"
+

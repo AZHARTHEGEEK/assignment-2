@@ -1,8 +1,19 @@
-#include <iostream>
+#include<iostream>
+#include<string>
+#include"person.h"
+/*
+#include<teacher.h>
+#include<course.h>
+#include<Student.h> */
+using namespace std;
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char** argv) 
+int main()
 {
+    person a;
+    a.setname();
+    a.setbirth();
+    a.setadress();
+    a.printdata();
 	return 0;
 }
