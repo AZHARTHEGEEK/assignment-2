@@ -7,44 +7,48 @@ parent::parent()
 {
     cout<<endl<<"\t\t\t******************Welcome******************"<<endl<<endl;
 }
+//###########################################################################
 string parent::setname()
 {
     cout<<"Enter Your Name: ";
     getline(cin,name);
 }
-
+//###########################################################################
 string parent::getname()
 {
    cout<<endl<<"Name : "<<name<<endl;
 }
-
+//###########################################################################
 string parent::setbirth()
 {
     cout<<"Enter Your Date of Birth : ";
     getline(cin,birth);
 }
+//###########################################################################
 
 string parent::getbirth()
 {
    cout<<endl<<"Date of Birth : "<<birth<<endl;
 }
+//###########################################################################
 string parent::setadress()
 {
     cout<<"Enter Your Address : ";
     getline(cin,address);
 }
-
+//###########################################################################
 string parent::getaddress()
 {
    cout<<endl<<"Address : "<<address<<endl;
 }
-
+//###########################################################################
 string parent::printdata()
 {
     cout<<endl<<"Name : "<<name<<endl;
     cout<<endl<<"Date of Birth : "<<birth<<endl;
     cout<<endl<<"Address : "<<address<<endl;
 }
+//###########################################################################
 string parent :: changeaddress()
     {
         char name;

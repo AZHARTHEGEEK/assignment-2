@@ -1,9 +1,8 @@
 #include<iostream>
 #include<string>
 #include"person.h"
-/*
-#include<teacher.h>
-#include<course.h>*/
+#include"teacher.h"
+#include"course.h"
 #include"Student.h"
 using namespace std;
 
@@ -17,9 +16,11 @@ int main()
     a.changeaddress();
     a.printdata();
 
-    student b;
+    teacher b;
     b.generateUniqueInt();
-    b.printiddata();
+    //b.printiddata();
+    b.printdata();
+
 
 	return 0;
 }

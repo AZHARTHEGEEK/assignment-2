@@ -1,28 +1,30 @@
 # depslib dependency file v1.0
-1595343147 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
+1595535090 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
 	<iostream>
 	<string>
 	"course.h"
 
-1595520440 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
+1595532442 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
 	<iostream>
 	<string>
+	<conio.h>
 	"Student.h"
 
-1595504227 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
+1595534756 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
 	<iostream>
 	<string>
 	"base.h"
 
-1595343152 c:\users\hp\documents\cpp\assignment-2\course.h
+1595535075 c:\users\hp\documents\cpp\assignment-2\course.h
 	<iostream>
 	<string>
 
-1595347062 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
+1595537473 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
 	<iostream>
 	<string>
+	"teacher.h"
 
-1595517510 c:\users\hp\documents\cpp\assignment-2\base.h
+1595537951 c:\users\hp\documents\cpp\assignment-2\base.h
 	<iostream>
 	<string.h>
 
@@ -31,12 +33,12 @@
 	<string>
 	"person.h"
 
-1595504416 c:\users\hp\documents\cpp\assignment-2\person.h
+1595535161 c:\users\hp\documents\cpp\assignment-2\person.h
 	<iostream>
 	<string.h>
 	"base.h"
 
-1595520497 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
+1595529393 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
 	<iostream>
 	<string>
 	"person.h"
@@ -44,8 +46,13 @@
 	<course.h>
 	"Student.h"
 
-1595520479 c:\users\hp\documents\cpp\assignment-2\student.h
+1595537525 c:\users\hp\documents\cpp\assignment-2\student.h
 	<iostream>
 	<string.h>
+	"teacher.h"
+
+1595537785 c:\users\hp\documents\cpp\assignment-2\teacher.h
+	<iostream>
+	<string>
 	"base.h"
 

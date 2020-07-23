@@ -27,8 +27,8 @@ public:
     //Change Address
     string changeaddress();
 
-    string id[200];
-    int i=0;
+    string id;
+    //int i=0;
 
 
     //printdata()

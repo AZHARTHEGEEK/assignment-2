@@ -1,5 +1,7 @@
 #include<iostream>
 #include<string>
+#include<conio.h>
+
 #include"Student.h"
 using namespace std;
 
@@ -17,20 +19,4 @@ void student::generateuniqueid()
      cout<<"Unique ID : "<<*i<<" "<<endl<<endl;
 }
 */
-int student::generateUniqueInt()
-{
-    i++;
-    cout<<endl<<"Enter Your ID Please ";
-    getline(cin,id[i]);
-    cin.ignore();
 
-}
-void student:: printiddata()
-{
-    int a;
-    int arrSize = sizeof(id)/sizeof(id[0]);
-    for(a=0;a==arrSize;a++)
-    {
-        cout<<endl<<endl<<"here here here here "<<id[a]<<endl<<endl;
-    }
-}
