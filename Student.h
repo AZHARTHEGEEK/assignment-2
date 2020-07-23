@@ -1,10 +1,13 @@
-
 #include<iostream>
-#include<string>
-using namespace std;
-class student
+#include<string.h>
+#include"base.h"
+class student : public parent
 {
+
 public:
-    void undrework();
-    cout<<"Under Working ........................ ";
+    student();
+    int generateUniqueInt();
+    void printiddata();
+
 };
+

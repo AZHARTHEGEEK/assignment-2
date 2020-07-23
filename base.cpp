@@ -45,3 +45,14 @@ string parent::printdata()
     cout<<endl<<"Date of Birth : "<<birth<<endl;
     cout<<endl<<"Address : "<<address<<endl;
 }
+string parent :: changeaddress()
+    {
+        char name;
+    cout<<endl<<"\t\t\tDo you want to change Address? If yes, then type 'Y' otherwise type 'N'.";
+    cin>>name;
+    if(name=='Y' || name == 'y')
+    {
+        cout<<"Enter Your New Address : ";
+        getline(cin,address);
+    }
+    }

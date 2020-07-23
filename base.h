@@ -1,7 +1,12 @@
+#ifndef __COMMON_H__
+#define __COMMON_H__
+
+
 #include<iostream>
 #include<string.h>
 using namespace std;
-class parent
+
+ class parent
 {
 private:
 
@@ -19,6 +24,16 @@ public:
     //Getter & Setter for Address
     string getaddress();
     string setadress();
+    //Change Address
+    string changeaddress();
+
+    string id[200];
+    int i=0;
+
+
     //printdata()
+
     string printdata();
+
 };
+  #endif

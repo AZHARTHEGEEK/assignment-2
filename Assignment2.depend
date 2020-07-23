@@ -4,11 +4,12 @@
 	<string>
 	"course.h"
 
-1595343703 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
+1595520440 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
 	<iostream>
 	<string>
+	"Student.h"
 
-1595352758 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
+1595504227 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
 	<iostream>
 	<string>
 	"base.h"
@@ -21,16 +22,29 @@
 	<iostream>
 	<string>
 
-1595352265 c:\users\hp\documents\cpp\assignment-2\base.h
+1595517510 c:\users\hp\documents\cpp\assignment-2\base.h
 	<iostream>
 	<string.h>
 
-1595359534 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
+1595504801 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
 	<iostream>
 	<string>
 	"person.h"
 
-1595359522 c:\users\hp\documents\cpp\assignment-2\person.h
+1595504416 c:\users\hp\documents\cpp\assignment-2\person.h
+	<iostream>
+	<string.h>
+	"base.h"
+
+1595520497 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
+	<iostream>
+	<string>
+	"person.h"
+	<teacher.h>
+	<course.h>
+	"Student.h"
+
+1595520479 c:\users\hp\documents\cpp\assignment-2\student.h
 	<iostream>
 	<string.h>
 	"base.h"

@@ -3,8 +3,8 @@
 #include"person.h"
 /*
 #include<teacher.h>
-#include<course.h>
-#include<Student.h> */
+#include<course.h>*/
+#include"Student.h"
 using namespace std;
 
 
@@ -14,6 +14,12 @@ int main()
     a.setname();
     a.setbirth();
     a.setadress();
+    a.changeaddress();
     a.printdata();
+
+    student b;
+    b.generateUniqueInt();
+    b.printiddata();
+
 	return 0;
 }
