@@ -1,3 +1,4 @@
+#pragma once
 #ifndef Included_TEACHER_H
 #define Includeed_TEACHER_H
 #include<iostream>

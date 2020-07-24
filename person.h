@@ -1,3 +1,4 @@
+#pragma once
 #ifndef Included_PERSON_H
 #define Includeed_PERSON_H
 #include<conio.h>

@@ -11,13 +11,13 @@
 	<conio.h>
 	"Student.h"
 
-1595576840 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
+1595577972 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
 	<iostream>
 	<string>
 	"base.h"
 	<conio.h>
 
-1595575373 c:\users\hp\documents\cpp\assignment-2\course.h
+1595578315 c:\users\hp\documents\cpp\assignment-2\course.h
 	<conio.h>
 	<iostream>
 	<string>
@@ -28,7 +28,7 @@
 	<string>
 	"teacher.h"
 
-1595577926 c:\users\hp\documents\cpp\assignment-2\base.h
+1595578362 c:\users\hp\documents\cpp\assignment-2\base.h
 	<conio.h>
 	<iostream>
 	<string.h>
@@ -39,7 +39,7 @@
 	<conio.h>
 	"person.h"
 
-1595575298 c:\users\hp\documents\cpp\assignment-2\person.h
+1595578317 c:\users\hp\documents\cpp\assignment-2\person.h
 	<conio.h>
 	<iostream>
 	<string.h>
@@ -54,12 +54,13 @@
 	"course.h"
 	"Student.h"
 
-1595575925 c:\users\hp\documents\cpp\assignment-2\student.h
+1595578331 c:\users\hp\documents\cpp\assignment-2\student.h
 	<iostream>
 	<string.h>
+	"teacher.h"
 	<conio.h>
 
-1595576320 c:\users\hp\documents\cpp\assignment-2\teacher.h
+1595578291 c:\users\hp\documents\cpp\assignment-2\teacher.h
 	<iostream>
 	<conio.h>
 	<string>
