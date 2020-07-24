@@ -1,7 +1,7 @@
-#ifndef __COMMON_H__
-#define __COMMON_H__
+#ifndef Included_COURSE_H
+#define Includeed_COURSE_H
 
-
+#include<conio.h>
 #include<iostream>
 #include<string>
 using namespace std;

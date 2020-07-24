@@ -1,7 +1,7 @@
 #ifndef __COMMON_H__
 #define __COMMON_H__
 
-
+#include<conio.h>
 #include<iostream>
 #include<string.h>
 using namespace std;

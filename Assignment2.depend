@@ -1,58 +1,66 @@
 # depslib dependency file v1.0
-1595535090 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
+1595569042 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
 	<iostream>
+	<conio.h>
 	<string>
 	"course.h"
 
-1595532442 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
+1595537891 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
 	<iostream>
 	<string>
 	<conio.h>
 	"Student.h"
 
-1595534756 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
+1595569000 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
 	<iostream>
 	<string>
 	"base.h"
+	<conio.h>
 
-1595535075 c:\users\hp\documents\cpp\assignment-2\course.h
+1595575373 c:\users\hp\documents\cpp\assignment-2\course.h
+	<conio.h>
 	<iostream>
 	<string>
 
-1595537473 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
-	<iostream>
+1595575719 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
+	<conio.h>
 	<string>
 	"teacher.h"
 
-1595537951 c:\users\hp\documents\cpp\assignment-2\base.h
+1595569007 c:\users\hp\documents\cpp\assignment-2\base.h
+	<conio.h>
 	<iostream>
 	<string.h>
 
-1595504801 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
+1595569037 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
 	<iostream>
 	<string>
+	<conio.h>
 	"person.h"
 
-1595535161 c:\users\hp\documents\cpp\assignment-2\person.h
+1595575298 c:\users\hp\documents\cpp\assignment-2\person.h
+	<conio.h>
 	<iostream>
 	<string.h>
 	"base.h"
 
-1595529393 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
+1595575726 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
 	<iostream>
 	<string>
+	<conio.h>
 	"person.h"
-	<teacher.h>
-	<course.h>
+	"teacher.h"
+	"course.h"
 	"Student.h"
 
-1595537525 c:\users\hp\documents\cpp\assignment-2\student.h
+1595575925 c:\users\hp\documents\cpp\assignment-2\student.h
 	<iostream>
 	<string.h>
-	"teacher.h"
+	<conio.h>
 
-1595537785 c:\users\hp\documents\cpp\assignment-2\teacher.h
+1595575652 c:\users\hp\documents\cpp\assignment-2\teacher.h
 	<iostream>
+	<conio.h>
 	<string>
 	"base.h"
 

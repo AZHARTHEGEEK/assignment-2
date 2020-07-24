@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include<conio.h>
 #include"person.h"
 #include"teacher.h"
 #include"course.h"
@@ -16,10 +17,6 @@ int main()
     a.changeaddress();
     a.printdata();
 
-    teacher b;
-    b.generateUniqueInt();
-    //b.printiddata();
-    b.printdata();
 
 
 	return 0;

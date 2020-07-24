@@ -1,8 +1,9 @@
-#ifndef __COMMON_H__
-#define __COMMON_H__
+#ifndef STUDENT_H
+#define STUDENT_H
 #include<iostream>
 #include<string.h>
-#include"teacher.h"
+//#include"teacher.h"
+#include<conio.h>
 
     /*Student Name
 b. Student ID
@@ -11,7 +12,7 @@ d. Course(s) he/she is enrolled in
 e. Phone Number
 f. Mailing address
 g. Email address*/
-class student : public teacher
+class student //: public teacher
 {
 
 public:

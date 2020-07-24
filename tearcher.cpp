@@ -1,25 +1,27 @@
-#include<iostream>
+/*#include<iostream>
+#include<conio.h>
 #include<string>
-#include"base.h"
+
 #include"teacher.h"
+
 
 using namespace std;
 
-teacher::teacher()
+ teacher::teacher()
 {
     cout<<endl<<"\t\t\t\t  Welcome to class of Teacher ";
 }
 
 //###########################################################################
 
-int teacher::generateUniqueInt()
+int teacher :: generateUniqueInt()
 {
     cout<<endl<<"Enter Your ID Please ";
     getline(cin,id);
     cin.ignore();
 
 }
-
+*/
 //###########################################################################
 /*
 void teacher :: printiddata()
@@ -33,7 +35,7 @@ void teacher :: printiddata()
 } */
 
 //###########################################################################
-
+/*
 void teacher ::courseenrolled()
 {
     cout<<endl<<"\t\t\t\tUnder working course enrolled ";
@@ -79,3 +81,4 @@ void teacher :: changesphonenumber()
     }
     }
 
+*/
