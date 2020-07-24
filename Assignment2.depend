@@ -11,7 +11,7 @@
 	<conio.h>
 	"Student.h"
 
-1595569000 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
+1595576840 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
 	<iostream>
 	<string>
 	"base.h"
@@ -28,7 +28,7 @@
 	<string>
 	"teacher.h"
 
-1595569007 c:\users\hp\documents\cpp\assignment-2\base.h
+1595577926 c:\users\hp\documents\cpp\assignment-2\base.h
 	<conio.h>
 	<iostream>
 	<string.h>
@@ -45,7 +45,7 @@
 	<string.h>
 	"base.h"
 
-1595575726 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
+1595576389 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
 	<iostream>
 	<string>
 	<conio.h>

@@ -14,6 +14,7 @@ string parent::setname()
 {
     cout<<"Enter Your Name: ";
     getline(cin,name);
+
 }
 //###########################################################################
 string parent::getname()
@@ -25,6 +26,7 @@ string parent::setbirth()
 {
     cout<<"Enter Your Date of Birth : ";
     getline(cin,birth);
+
 }
 //###########################################################################
 
@@ -37,6 +39,7 @@ string parent::setadress()
 {
     cout<<"Enter Your Address : ";
     getline(cin,address);
+
 }
 //###########################################################################
 string parent::getaddress()
@@ -59,6 +62,9 @@ string parent :: changeaddress()
     if(name=='Y' || name == 'y')
     {
         cout<<"Enter Your New Address : ";
+        cin.ignore();
         getline(cin,address);
+
+
     }
     }
