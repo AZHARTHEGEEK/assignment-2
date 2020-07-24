@@ -64,7 +64,5 @@ string parent :: changeaddress()
         cout<<"Enter Your New Address : ";
         cin.ignore();
         getline(cin,address);
-
-
     }
     }

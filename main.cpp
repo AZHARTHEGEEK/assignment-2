@@ -20,5 +20,9 @@ int main()
     teacher b;
     b.changeaddress();
 
+    student ab;
+    ab.setname();
+
+
 	return 0;
 }
