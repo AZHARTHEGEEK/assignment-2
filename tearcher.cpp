@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 #include<conio.h>
 #include<string>
 
@@ -21,7 +21,7 @@ int teacher :: generateUniqueInt()
     cin.ignore();
 
 }
-*/
+
 //###########################################################################
 /*
 void teacher :: printiddata()
@@ -35,7 +35,7 @@ void teacher :: printiddata()
 } */
 
 //###########################################################################
-/*
+
 void teacher ::courseenrolled()
 {
     cout<<endl<<"\t\t\t\tUnder working course enrolled ";
@@ -81,4 +81,4 @@ void teacher :: changesphonenumber()
     }
     }
 
-*/
+

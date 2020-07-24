@@ -22,7 +22,8 @@
 	<iostream>
 	<string>
 
-1595575719 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
+1595576354 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
+	<iostream>
 	<conio.h>
 	<string>
 	"teacher.h"
@@ -58,7 +59,7 @@
 	<string.h>
 	<conio.h>
 
-1595575652 c:\users\hp\documents\cpp\assignment-2\teacher.h
+1595576320 c:\users\hp\documents\cpp\assignment-2\teacher.h
 	<iostream>
 	<conio.h>
 	<string>

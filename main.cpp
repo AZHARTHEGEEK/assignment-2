@@ -17,7 +17,8 @@ int main()
     a.changeaddress();
     a.printdata();
 
-
+    teacher b;
+    b.changeaddress();
 
 	return 0;
 }

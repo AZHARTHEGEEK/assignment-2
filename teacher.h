@@ -1,4 +1,4 @@
-/*#ifndef Included_TEACHER_H
+#ifndef Included_TEACHER_H
 #define Includeed_TEACHER_H
 #include<iostream>
 #include<conio.h>
@@ -6,7 +6,8 @@
 #include"base.h"
 using namespace std;
 
-class teacher : public parent  {
+class teacher : public parent
+{
 private:
 
 public:
@@ -22,16 +23,4 @@ public:
 };
     //void printiddata();
 
-a. Teacher Name
-b. Teacher ID
-c. Address
-d. Phone Number
-e. Email Address
-f. Date of Birth
-g. Course(s) he/she is teaching
-
-
-
 #endif
-
-*/
