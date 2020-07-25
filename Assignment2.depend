@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1595569042 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
+1595682588 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
 	<iostream>
 	<conio.h>
 	<string>
 	"course.h"
 
-1595581187 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
+1595682565 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
 	<iostream>
 	<string>
 	<conio.h>
@@ -13,7 +13,7 @@
 	"base.h"
 	"Student.h"
 
-1595678081 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
+1595682737 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
 	<iostream>
 	<string>
 	"base.h"
@@ -24,7 +24,7 @@
 	<iostream>
 	<string>
 
-1595576354 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
+1595682616 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
 	<iostream>
 	<conio.h>
 	<string>
@@ -35,7 +35,7 @@
 	<iostream>
 	<string.h>
 
-1595676487 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
+1595682580 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
 	<iostream>
 	<string>
 	<conio.h>
@@ -47,11 +47,13 @@
 	<string.h>
 	"base.h"
 
-1595682317 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
+1595686415 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
 	<iostream>
 	<string>
 	<conio.h>
 	<windows.h>
+	<dos.h>
+	<time.h>
 	"person.h"
 	"teacher.h"
 	"course.h"

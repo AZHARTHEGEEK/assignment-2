@@ -1,7 +1,12 @@
+//  Code Available Also Available on My GitHub Account At github.com/azharthegeek/assignment-2
+//  Currently Private Repository
+
 #include<iostream>
 #include<string>
 #include<conio.h>
 #include<windows.h>
+#include<dos.h>
+ #include<time.h>
 
 #include"person.h"
 #include"teacher.h"
@@ -19,7 +24,31 @@ void alloptions();
 
 int main()
 {
-system("Color B0");
+
+     system("Color B0");
+     for(int i=1;i<=50;i++)
+     {
+     system("CLS");
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+     cout<<endl<<"\t\t\t                          Welcome Screen"<<endl;
+     cout<<"\t\t\t                        OOP Assignment # 02 ";
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<"\n\n\t\t\t";
+     for(int j=1;j<=i;j++)
+     cout<<"²";
+     if( i > 1 && i < 100){
+    cout<<endl<<endl<<"\t\t\tAssigned By : Zubair uddin Shaikh";
+    cout<<endl<<"\t\t\tCreated By  : Muhammad Azhar"<<endl;
+    cout<<"\t\t\tID          : CSC-19F-069"<<endl;
+    cout<<"\t\t\tSection     : 2B"<<endl;}
+
+     Sleep(15);
+      }
+
+
+
+
+
 system("CLS");
 mainloop();
 }
