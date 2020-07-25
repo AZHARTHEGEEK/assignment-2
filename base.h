@@ -1,3 +1,4 @@
+/*
 #pragma once
 #ifndef __COMMON_H__
 #define __COMMON_H__
@@ -17,24 +18,8 @@ public:
     string address;
     parent();
     //Getter & Setter for name
-    string getname();
-    string setname();
-    //Getter & Setter for birth
-    string getbirth();
-    string setbirth();
-    //Getter & Setter for Address
-    string getaddress();
-    string setadress();
-    //Change Address
-    string changeaddress();
 
-    string id;
-    //int i=0;
-
-
-    //printdata()
-
-    string printdata();
 
 };
   #endif
+*/

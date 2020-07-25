@@ -6,7 +6,7 @@
 #include<conio.h>
 #include<windows.h>
 #include<dos.h>
- #include<time.h>
+#include<time.h>
 
 #include"person.h"
 #include"teacher.h"
@@ -24,23 +24,24 @@ void alloptions();
 
 int main()
 {
-      system("CLS");
+     system("CLS");
      system("Color B0");
      for(int i=1;i<=50;i++)
      {
      system("CLS");
-    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
      cout<<endl<<"\t\t\t                          Welcome Screen"<<endl;
      cout<<"\t\t\t                        OOP Assignment # 02 ";
-    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-    cout<<"\n\n\t\t\t";
+     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+     cout<<"\n\n\t\t\t";
      for(int j=1;j<=i;j++)
      cout<<"²";
      if( i > 1 && i < 100){
-    cout<<endl<<endl<<"\t\t\tAssigned By : Zubair uddin Shaikh";
-    cout<<endl<<"\t\t\tCreated By  : Muhammad Azhar"<<endl;
-    cout<<"\t\t\tID          : CSC-19F-069"<<endl;
-    cout<<"\t\t\tSection     : 2B"<<endl;}
+     cout<<endl<<endl<<"\t\t\tSindh Madressatul Islam University";
+     cout<<endl<<endl<<"\t\t\tAssigned By : Zubair uddin Shaikh";
+     cout<<endl<<"\t\t\tCreated By  : Muhammad Azhar"<<endl;
+     cout<<"\t\t\tID          : CSC-19F-069"<<endl;
+     cout<<"\t\t\tSection     : 2B"<<endl;}
 
      Sleep(10);
       }
@@ -48,12 +49,14 @@ int main()
 system("CLS");
 mainloop();
 }
-
+//#######################################################################################
+//#######################################################################################
 void mainloop()
 {
     system("CLS");
     char classselection;
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t  Sindh Madressatul Islam University";
     cout<<endl<<"\t\t\t  Assignment # 02 Object Oriented Programming Using Inheritance"<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
@@ -104,7 +107,8 @@ void mainloop()
         alloptions();
     }
 }
-
+//#######################################################################################
+//#######################################################################################
 
 void personoption()
 {
@@ -145,12 +149,19 @@ void personoption()
         mainloop();
         }
 }
-
+//#######################################################################################
+//#######################################################################################
 
 void teacheroption()
 {
     teacher b;
-    b.changeaddress();
+   b.generateUniqueInt();
+   b.courseenrolled();
+   b.stuphonenumber();
+   b.stuemailaddress();
+   b.changesemailaddress();
+   b.changesphonenumber();
+   b.changeaddress();
 
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
@@ -178,13 +189,20 @@ void teacheroption()
         mainloop();
         }
 }
-
+//#######################################################################################
+//#######################################################################################
 
 void studentoption()
 {
-    student ab;
-    ab.setname();
-
+    student c;
+    c.setname();
+ c.generateUniqueInt();
+   c.courseenrolled();
+   c.stuphonenumber();
+   c.stuemailaddress();
+   c.changesemailaddress();
+   c.changesphonenumber();
+   c.changeaddress();
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
     cout<<"\t\t\t1. Run Again This Function"<<endl;
@@ -211,13 +229,15 @@ void studentoption()
         mainloop();
         }
 }
-
+//#######################################################################################
+//#######################################################################################
 
 void courseoption()
 {
+ course d;
 
 
-char classselection;
+    char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
     cout<<"\t\t\t1. Run Again This Function"<<endl;
     cout<<"\t\t\t2. Main Menu"<<endl;
@@ -243,12 +263,16 @@ char classselection;
         mainloop();
         }
 }
-
+//#######################################################################################
+//#######################################################################################
 
 void alloptions()
 {
 
-
+person a;
+teacher b;
+student c;
+course d;
 
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;

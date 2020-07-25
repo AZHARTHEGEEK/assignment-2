@@ -14,7 +14,7 @@ d. Course(s) he/she is enrolled in
 e. Phone Number
 f. Mailing address
 g. Email address*/
-class student : public parent
+class student : public teacher
 {
 
 public:

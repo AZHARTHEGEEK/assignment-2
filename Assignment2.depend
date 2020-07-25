@@ -13,7 +13,7 @@
 	"base.h"
 	"Student.h"
 
-1595682737 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
+1595703691 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
 	<iostream>
 	<string>
 	"base.h"
@@ -24,30 +24,30 @@
 	<iostream>
 	<string>
 
-1595682616 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
+1595703846 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
 	<iostream>
 	<conio.h>
 	<string>
+	"person.h"
 	"teacher.h"
 
-1595578362 c:\users\hp\documents\cpp\assignment-2\base.h
+1595702691 c:\users\hp\documents\cpp\assignment-2\base.h
 	<conio.h>
 	<iostream>
 	<string.h>
 
-1595682580 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
+1595703864 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
 	<iostream>
 	<string>
 	<conio.h>
 	"person.h"
 
-1595578317 c:\users\hp\documents\cpp\assignment-2\person.h
+1595704006 c:\users\hp\documents\cpp\assignment-2\person.h
 	<conio.h>
 	<iostream>
 	<string.h>
-	"base.h"
 
-1595686415 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
+1595701312 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
 	<iostream>
 	<string>
 	<conio.h>
@@ -59,15 +59,15 @@
 	"course.h"
 	"Student.h"
 
-1595581212 c:\users\hp\documents\cpp\assignment-2\student.h
+1595700880 c:\users\hp\documents\cpp\assignment-2\student.h
 	<iostream>
 	<string.h>
 	"base.h"
 	<conio.h>
 
-1595579613 c:\users\hp\documents\cpp\assignment-2\teacher.h
+1595703761 c:\users\hp\documents\cpp\assignment-2\teacher.h
 	<iostream>
 	<conio.h>
 	<string>
-	"base.h"
+	"person.h"
 

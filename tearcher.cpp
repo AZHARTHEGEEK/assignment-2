@@ -1,7 +1,7 @@
 #include<iostream>
 #include<conio.h>
 #include<string>
-
+#include"person.h"
 #include"teacher.h"
 
 

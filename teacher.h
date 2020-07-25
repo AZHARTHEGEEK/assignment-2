@@ -4,10 +4,10 @@
 #include<iostream>
 #include<conio.h>
 #include<string>
-#include"base.h"
+#include"person.h"
 using namespace std;
 
-class teacher : public parent
+class teacher : public person
 {
 private:
 
