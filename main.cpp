@@ -92,7 +92,7 @@ void personoption()
 
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
-    cout<<"\t\t\t1. Run Again Person Function (Test Portal)"<<endl;
+    cout<<"\t\t\t1. Run Again This Function"<<endl;
     cout<<"\t\t\t2. Main Menu"<<endl;
     cout<<"\t\t\t3. Exits"<<endl;
 
@@ -122,6 +122,32 @@ void teacheroption()
 {
     teacher b;
     b.changeaddress();
+
+    char classselection;
+    cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
+    cout<<"\t\t\t1. Run Again This Function"<<endl;
+    cout<<"\t\t\t2. Main Menu"<<endl;
+    cout<<"\t\t\t3. Exits"<<endl;
+
+    cout<<endl<<"\t\t\tEnter : ";
+    cin>>classselection;
+    if (classselection == '3')
+    {
+    	while(true)
+    	{
+    		break;
+		}
+
+    }
+    else if (classselection == '1')
+    {
+        system("CLS");
+        teacheroption();
+    }
+    else if (classselection == '2')
+        {
+        mainloop();
+        }
 }
 
 
@@ -129,16 +155,121 @@ void studentoption()
 {
     student ab;
     ab.setname();
+
+    char classselection;
+    cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
+    cout<<"\t\t\t1. Run Again This Function"<<endl;
+    cout<<"\t\t\t2. Main Menu"<<endl;
+    cout<<"\t\t\t3. Exits"<<endl;
+
+    cout<<endl<<"\t\t\tEnter : ";
+    cin>>classselection;
+    if (classselection == '3')
+    {
+    	while(true)
+    	{
+    		break;
+		}
+
+    }
+    else if (classselection == '1')
+    {
+        system("CLS");
+        studentoption();
+    }
+    else if (classselection == '2')
+        {
+        mainloop();
+        }
 }
 
 
 void courseoption()
 {
 
+
+char classselection;
+    cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
+    cout<<"\t\t\t1. Run Again This Function"<<endl;
+    cout<<"\t\t\t2. Main Menu"<<endl;
+    cout<<"\t\t\t3. Exits"<<endl;
+
+    cout<<endl<<"\t\t\tEnter : ";
+    cin>>classselection;
+    if (classselection == '3')
+    {
+    	while(true)
+    	{
+    		break;
+		}
+
+    }
+    else if (classselection == '1')
+    {
+        system("CLS");
+        courseoption();
+    }
+    else if (classselection == '2')
+        {
+        mainloop();
+        }
 }
 
 
 void alloptions()
 {
 
+
+
+char classselection;
+    cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
+    cout<<"\t\t\t1. Run Again This Function"<<endl;
+    cout<<"\t\t\t2. Main Menu"<<endl;
+    cout<<"\t\t\t3. Exits"<<endl;
+
+    cout<<endl<<"\t\t\tEnter : ";
+    cin>>classselection;
+    if (classselection == '3')
+    {
+    	while(true)
+    	{
+    		break;
+		}
+
+    }
+    else if (classselection == '1')
+    {
+        system("CLS");
+        alloptions();
+    }
+    else if (classselection == '2')
+        {
+        mainloop();
+        }
 }
+
+char classselection;
+    cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
+    cout<<"\t\t\t1. Run Again This Function"<<endl;
+    cout<<"\t\t\t2. Main Menu"<<endl;
+    cout<<"\t\t\t3. Exits"<<endl;
+
+    cout<<endl<<"\t\t\tEnter : ";
+    cin>>classselection;
+    if (classselection == '3')
+    {
+    	while(true)
+    	{
+    		break;
+		}
+
+    }
+    else if (classselection == '1')
+    {
+        system("CLS");
+        alloptions();
+    }
+    else if (classselection == '2')
+        {
+        mainloop();
+        }
