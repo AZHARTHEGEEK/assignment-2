@@ -50,10 +50,12 @@ string parent::getaddress()
 //###########################################################################
 string parent::printdata()
 {
-    cout<<endl<<endl<<"\t\t\tSummary :";
+
+
     cout<<endl<<endl<<"\t\t\tName : "<<name;
     cout<<endl<<"\t\t\tDate of Birth : "<<birth;
     cout<<endl<<"\t\t\tAddress : "<<address<<endl;
+
 }
 //###########################################################################
 string parent :: changeaddress()

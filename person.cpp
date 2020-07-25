@@ -10,4 +10,5 @@ using namespace std;
       cout<<endl<<"\t\t\t\t\t     Welcome To Person Portal ";
       cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
   }
+  //  all others functionalities of person class Inherited from Parent Class
 

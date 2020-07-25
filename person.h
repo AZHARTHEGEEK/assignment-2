@@ -11,5 +11,6 @@ class person: public parent
 
 public:
     person();
+    //  all others functionalities of person class Inherited from Parent Class
 };
 #endif

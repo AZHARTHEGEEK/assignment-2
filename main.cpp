@@ -24,7 +24,7 @@ void alloptions();
 
 int main()
 {
-
+      system("CLS");
      system("Color B0");
      for(int i=1;i<=50;i++)
      {
@@ -42,12 +42,8 @@ int main()
     cout<<"\t\t\tID          : CSC-19F-069"<<endl;
     cout<<"\t\t\tSection     : 2B"<<endl;}
 
-     Sleep(15);
+     Sleep(10);
       }
-
-
-
-
 
 system("CLS");
 mainloop();
@@ -118,7 +114,10 @@ void personoption()
     a.setbirth();
     a.setadress();
     a.changeaddress();
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\tSummary :";
     a.printdata();
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
