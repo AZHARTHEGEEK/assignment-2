@@ -83,6 +83,7 @@ void mainloop()
 
 void personoption()
 {
+
     person a;
     a.setname();
     a.setbirth();
@@ -221,7 +222,7 @@ void alloptions()
 
 
 
-char classselection;
+    char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
     cout<<"\t\t\t1. Run Again This Function"<<endl;
     cout<<"\t\t\t2. Main Menu"<<endl;
@@ -248,28 +249,3 @@ char classselection;
         }
 }
 
-char classselection;
-    cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
-    cout<<"\t\t\t1. Run Again This Function"<<endl;
-    cout<<"\t\t\t2. Main Menu"<<endl;
-    cout<<"\t\t\t3. Exits"<<endl;
-
-    cout<<endl<<"\t\t\tEnter : ";
-    cin>>classselection;
-    if (classselection == '3')
-    {
-    	while(true)
-    	{
-    		break;
-		}
-
-    }
-    else if (classselection == '1')
-    {
-        system("CLS");
-        alloptions();
-    }
-    else if (classselection == '2')
-        {
-        mainloop();
-        }

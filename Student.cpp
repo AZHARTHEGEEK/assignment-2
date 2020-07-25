@@ -9,7 +9,10 @@ using namespace std;
 
 student::student()
   {
-      cout<<endl<<endl<<"\t\t\t\tWelcome To Student Class "<<endl<<endl;
+
+      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+      cout<<endl<<"\t\t\t\t\t     Welcome To Student Portal ";
+      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
   }
 
 

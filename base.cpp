@@ -7,7 +7,7 @@ using namespace std;
 
 parent::parent()
 {
-    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+
 }
 //###########################################################################
 string parent::setname()
@@ -63,7 +63,7 @@ string parent :: changeaddress()
     cin>>name;
     if(name=='Y' || name == 'y')
     {
-        cout<<"\t\t\tEnter Your New Address : ";
+        cout<<endl<<"\t\t\tEnter Your New Address : ";
         cin.ignore();
         getline(cin,address);
     }

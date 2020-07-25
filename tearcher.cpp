@@ -9,7 +9,10 @@ using namespace std;
 
  teacher::teacher()
 {
-    cout<<endl<<"\t\t\t\t  Welcome to class of Teacher ";
+
+      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+      cout<<endl<<"\t\t\t\t\t     Welcome To Teacher Portal ";
+      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
 }
 
 //###########################################################################

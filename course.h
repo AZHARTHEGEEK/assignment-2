@@ -6,6 +6,11 @@
 #include<iostream>
 #include<string>
 using namespace std;
+class course
+{
+public:
+    course();
+};
 
 
   #endif
