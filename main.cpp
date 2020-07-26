@@ -246,7 +246,7 @@ void courseoption()
 {
 
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-    cout<<endl<<"\t\t\t\t\t\t Welcome to Course Available list "<<endl;
+    cout<<endl<<"\t\t\t\t\tWelcome to Course Available list "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
  course d;
  d.courseslist();
