@@ -10,18 +10,8 @@ course::course()
     //Constructor of course class
       cout<<endl;
 }
-void course::test()
-{
-    cout<<endl<<"\t\t\t unde working"<<endl;
-}
-
 void course::courseslist()
 {
-
-
-
-
-
                          /*  {" ",}
                                         {"",}
                                         {"",}
@@ -40,4 +30,6 @@ for (int i = 0; i < 6; ++i) {
             cout <<courseslistarray[i][1];
         }
                  }
+
+
 }

@@ -204,7 +204,7 @@ void studentoption()
     cout<<endl<<"\t\t\t\t\t\t Welcome to Student "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
     student c;
-    c.test();
+
     c.setname();
  c.generateUniqueInt();
    c.courseenrolled();
@@ -249,7 +249,6 @@ void courseoption()
     cout<<endl<<"\t\t\t\t\t\t Welcome to Course Available list "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
  course d;
- d.test();
  d.courseslist();
 
 
