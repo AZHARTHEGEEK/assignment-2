@@ -42,7 +42,7 @@ int main()
      cout<<"\t\t\tID          : CSC-19F-069"<<endl;
      cout<<"\t\t\tSection     : 2B"<<endl;}
 
-     Sleep(10);
+     Sleep(0);
       }
 
 system("CLS");

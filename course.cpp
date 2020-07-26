@@ -17,21 +17,9 @@ void course::test()
 
 void course::courseslist()
 {
-    string courseslistarray[150][150]= {
-                                        {"Object Oriented Programming (OOP)","CSC 104"},
-                                        {"Foreign Language Arabic","CSC "},
-                                        {"Probability & Statistics","MAT100"},
-                                        {"Communication Skills","ENG201"},
-                                        {"Digital Logic & Design","CEN201"},
-                                        {"Programing Fundamentals","CSC103"}};
 
-        for (int i = 0; i < 6; ++i) {
 
-        // access columns of the array
-        for (int j = 0; j < 2; ++j) {
-            cout <<endl<< "test[" << i << "][" << j << "] = " << courseslistarray[i][j] << endl;
-        }
-                 }
+
 
 
                          /*  {" ",}
@@ -45,8 +33,11 @@ void course::courseslist()
                                         {"",}
                                         {""}
 */
-    cout<<endl<<"\t\t\tThe Available Course List :";
-    cout<<endl<<"\t\t\tObject Oriented Programing";
-    cout<<endl<<"\t\t\tThe Available Course List :";
-    cout<<endl<<"\t\t\tThe Available Course List :"<<endl;
+for (int i = 0; i < 6; ++i) {
+        cout <<endl<< "\t\t\t"<<courseslistarray[i][0] <<"    : ";
+        // access columns of the array
+        for (int j = 0; j < 1; ++j) {
+            cout <<courseslistarray[i][1];
+        }
+                 }
 }
