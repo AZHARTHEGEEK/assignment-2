@@ -21,15 +21,12 @@ Phone Number
 Email Address
 Date of Birth
 Course(s) he/she is teaching
-
-
-
 */
 //###########################################################################
 
 int teacher :: generateUniqueInt()
 {
-    cout<<endl<<"\t\t\tEnter Your ID Please ";
+    cout<<endl<<"\t\t\tEnter Your Unique ID Please ";
     getline(cin,id);
     cin.ignore();
 
@@ -51,11 +48,12 @@ void teacher :: printiddata()
 
 void teacher ::courseenrolled()
 {
-    cout<<endl<<"\t\t\tUnder working course enrolled ";
+   courses_add_remove_list();
+
 }
 //###########################################################################
 
-void teacher ::stuphonenumber()
+void teacher ::phonenumber()
 {
     cout<<endl<<"\t\t\tPlease Enter Your Phone Number ";
     getline(cin,sphonenumber);
@@ -63,7 +61,7 @@ void teacher ::stuphonenumber()
 }
 
 //###########################################################################
-void teacher ::stuemailaddress()
+void teacher ::emailaddress()
 {
     cout<<endl<<"\t\t\tPlease Enter Your Email Adress ";
     getline(cin,semailaddress);

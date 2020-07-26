@@ -18,8 +18,8 @@ public:
     string sphonenumber;
     int generateUniqueInt();
     void courseenrolled();
-    void stuphonenumber();
-    void stuemailaddress();
+    void phonenumber();
+    void emailaddress();
     void changesemailaddress();
     void changesphonenumber();
 };

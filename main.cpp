@@ -25,6 +25,10 @@ int main()
 {
      system("CLS");
      system("Color B0");
+     //system("mode 500");
+     system("mode con COLS=700");
+     ShowWindow(GetConsoleWindow(),SW_MAXIMIZE);
+     SendMessage(GetConsoleWindow(),WM_SYSKEYDOWN,VK_RETURN,0x20000000);
      for(int i=1;i<=50;i++)
      {
      system("CLS");
@@ -162,8 +166,8 @@ void teacheroption()
     teacher b;
    b.generateUniqueInt();
    b.courseenrolled();
-   b.stuphonenumber();
-   b.stuemailaddress();
+   b.phonenumber();
+   b.emailaddress();
    b.changesemailaddress();
    b.changesphonenumber();
    b.changeaddress();
@@ -205,11 +209,11 @@ void studentoption()
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
     student c;
 
-    c.setname();
- c.generateUniqueInt();
+   c.setname();
+   c.generateUniqueInt();
    c.courseenrolled();
-   c.stuphonenumber();
-   c.stuemailaddress();
+   c.phonenumber();
+   c.emailaddress();
    c.changesemailaddress();
    c.changesphonenumber();
    c.changeaddress();
@@ -249,7 +253,7 @@ void courseoption()
     cout<<endl<<"\t\t\t\t\tWelcome to Course Available list "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
  course d;
- d.courseslist();
+d.courses_add_remove_list();
 
 
     char classselection;

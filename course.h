@@ -5,6 +5,7 @@
 #include<conio.h>
 #include<iostream>
 #include<string>
+
 using namespace std;
 class course
 {
@@ -15,8 +16,10 @@ public:
                                         {"Probability & Statistics","MAT100","Mr. Hassan Hashim"},
                                         {"Communication Skills","ENG201","Ms. Samreen Riaz "},
                                         {"Digital Logic & Design","CEN201","Mr. Haque Nawaz Lashari"}};
+    int coursesnumber = 5;
     course();
-    void courseslist();
+    void courses_add_remove_list();
+    int limitedfunction;
 };
 
 
