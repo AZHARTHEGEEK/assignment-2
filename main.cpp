@@ -250,6 +250,7 @@ void courseoption()
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
  course d;
  d.test();
+ d.courseslist();
 
 
     char classselection;

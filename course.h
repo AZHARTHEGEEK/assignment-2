@@ -11,6 +11,7 @@ class course
 public:
     course();
     void test();
+    void courseslist();
 };
 
 
