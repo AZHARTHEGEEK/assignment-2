@@ -5,7 +5,6 @@
 #include<string>
 #include<conio.h>
 #include<windows.h>
-#include<dos.h>
 #include<time.h>
 
 #include"person.h"
@@ -72,7 +71,7 @@ void mainloop()
     cout<<endl<<endl<<"\t\t\tThere Are Four Functionalities Available to work on :"<<endl;
     cout<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
 
-    cout<<"\t\t\t1. Person Function (Test Portal)"<<endl;
+    cout<<"\t\t\t1. Person "<<endl;
     cout<<"\t\t\t2. Teacher"<<endl;
     cout<<"\t\t\t3. Student"<<endl;
     cout<<"\t\t\t4. Available Courses List"<<endl;
@@ -114,6 +113,9 @@ void personoption()
 {
 
     person a;
+        cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t\t\t\t Welcome to Person "<<endl;
+    cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
     a.setname();
     a.setbirth();
     a.setadress();
@@ -154,6 +156,9 @@ void personoption()
 
 void teacheroption()
 {
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t\t\t\t Welcome to Teacher "<<endl;
+    cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
     teacher b;
    b.generateUniqueInt();
    b.courseenrolled();
@@ -194,7 +199,12 @@ void teacheroption()
 
 void studentoption()
 {
+
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t\t\t\t Welcome to Student "<<endl;
+    cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
     student c;
+    c.test();
     c.setname();
  c.generateUniqueInt();
    c.courseenrolled();
@@ -234,7 +244,12 @@ void studentoption()
 
 void courseoption()
 {
+
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t\t\t\t Welcome to Course Available list "<<endl;
+    cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
  course d;
+ d.test();
 
 
     char classselection;

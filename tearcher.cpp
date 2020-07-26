@@ -9,12 +9,22 @@ using namespace std;
 
  teacher::teacher()
 {
-
-      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-      cout<<endl<<"\t\t\t\t\t     Welcome To Teacher Portal ";
-      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
+    //Constructor of teacher class
+      cout<<endl;
 }
+//###########################################################################
+/*
+Teacher Name
+Teacher ID
+Address
+Phone Number
+Email Address
+Date of Birth
+Course(s) he/she is teaching
 
+
+
+*/
 //###########################################################################
 
 int teacher :: generateUniqueInt()

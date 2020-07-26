@@ -1,10 +1,11 @@
-
+#pragma once
 #ifndef STUDENT_H
 #define STUDENT_H
 #include<iostream>
 #include<string.h>
 
-#include"base.h"
+#include"course.h"
+#include"teacher.h"
 #include<conio.h>
 
     /*Student Name

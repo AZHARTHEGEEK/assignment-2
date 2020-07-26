@@ -11,9 +11,11 @@ public:
     string name;
     string birth;
     string address;
-string id;
+    string id;
+
     person();
-     string getname();
+    //Getter & Setter for name
+    string getname();
     string setname();
     //Getter & Setter for birth
     string getbirth();

@@ -2,17 +2,16 @@
 #include<string>
 #include<conio.h>
 #include"teacher.h"
-#include"base.h"
+
 
 #include"Student.h"
 using namespace std;
 
 student::student()
   {
+      //Constructor of student class
+      cout<<endl;
 
-      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-      cout<<endl<<"\t\t\t\t\t     Welcome To Student Portal ";
-      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
   }
 
 

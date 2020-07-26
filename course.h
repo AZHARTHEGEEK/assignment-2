@@ -10,6 +10,7 @@ class course
 {
 public:
     course();
+    void test();
 };
 
 

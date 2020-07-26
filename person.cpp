@@ -6,17 +6,15 @@ using namespace std;
 
   person::person()
   {
-      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-      cout<<endl<<"\t\t\t\t\t     Welcome To Person Portal ";
-      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
+      //Constructor of person class
+      cout<<endl;
   }
-  //  all others functionalities of person class Inherited from Parent Class
+//###########################################################################
 string person::setname()
 {
     cout<<"\t\t\tEnter Your Name: ";
     cin.ignore();
     getline(cin,name);
-
 }
 //###########################################################################
 string person::getname()
@@ -28,7 +26,6 @@ string person::setbirth()
 {
     cout<<"\t\t\tEnter Your Date of Birth : ";
     getline(cin,birth);
-
 }
 //###########################################################################
 
@@ -48,16 +45,7 @@ string person::getaddress()
 {
    cout<<endl<<"\t\t\tAddress : "<<address;
 }
-//###########################################################################
-string person::printdata()
-{
 
-
-    cout<<endl<<endl<<"\t\t\tName : "<<name;
-    cout<<endl<<"\t\t\tDate of Birth : "<<birth;
-    cout<<endl<<"\t\t\tAddress : "<<address<<endl;
-
-}
 //###########################################################################
 string person :: changeaddress()
     {
@@ -72,3 +60,11 @@ string person :: changeaddress()
     }
     }
 
+//###########################################################################
+
+string person::printdata()
+{
+    cout<<endl<<endl<<"\t\t\tName : "<<name;
+    cout<<endl<<"\t\t\tDate of Birth : "<<birth;
+    cout<<endl<<"\t\t\tAddress : "<<address<<endl;
+}

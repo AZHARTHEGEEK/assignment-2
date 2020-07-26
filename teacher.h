@@ -4,10 +4,11 @@
 #include<iostream>
 #include<conio.h>
 #include<string>
+#include"course.h"
 #include"person.h"
 using namespace std;
 
-class teacher : public person
+class teacher :virtual public person ,virtual public course
 {
 private:
 
