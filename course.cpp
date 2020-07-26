@@ -14,7 +14,7 @@ course::course()
 void course::courses_add_remove_list()
 {
 cout<<endl<<"\t\t\t****************************************************************";
-for (int i = 0; i < coursesnumber ; ++i) {
+for (int i = 0; i < *cn ; ++i) {
         cout << endl << "\t\t\t" <<"Course "<<i+1<<" Name  : " <<courseslistarray[i][0];
         cout << endl << "\t\t\t" << "Course Code    : "<<courseslistarray[i][1];
         cout << endl << "\t\t\t" << "Course Teacher : "<<courseslistarray[i][2]<<endl;
@@ -29,7 +29,7 @@ for (int i = 0; i < coursesnumber ; ++i) {
     cout<<endl<<endl<<"\t\t\tIf You Want to Add More Courses in Above List";
     cout<<endl<<"\t\t\tEnter \"Y\" to Add \"N\" to Skip";
     char check;
-    cout<<"\t\t\tEnter : ";
+    cout<<endl<<"\t\t\tEnter : ";
     cin>>check;
     if(check=='Y' || check == 'y')
     {
@@ -54,7 +54,7 @@ for (int i = 0; i < coursesnumber ; ++i) {
 
     cout<<endl<<endl<<"\t\t\tIf You Want to Remove  Course in Above List";
     cout<<endl<<"\t\t\tEnter \"Y\" to Add \"N\" to Skip";
-    cout<<"\t\t\tEnter : ";
+    cout<<endl<<"\t\t\tEnter : ";
     cin>>check;
     if(check=='Y' || check == 'y')
     {

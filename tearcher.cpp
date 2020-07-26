@@ -48,9 +48,13 @@ void teacher :: printiddata()
 
 void teacher ::courseenrolled()
 {
-   courses_add_remove_list();
-
-}
+        cout<<endl<<"\t\t\t****************************************************************";
+        for (int i = 0; i < *cn ; ++i) {
+        cout << endl << "\t\t\t" <<"Course "<<i+1<<" Name  : " <<courseslistarray[i][0];
+        cout << endl << "\t\t\t" << "Course Code    : "<<courseslistarray[i][1];
+        cout << endl << "\t\t\t" << "Course Teacher : "<<courseslistarray[i][2]<<endl;
+        cout<<endl<<"\t\t\t****************************************************************";
+}}
 //###########################################################################
 
 void teacher ::phonenumber()

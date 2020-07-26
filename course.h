@@ -17,9 +17,12 @@ public:
                                         {"Communication Skills","ENG201","Ms. Samreen Riaz "},
                                         {"Digital Logic & Design","CEN201","Mr. Haque Nawaz Lashari"}};
     int coursesnumber = 5;
+    int *cn=&coursesnumber;
+    //string aray is most difficult part
+    //string *cp=courseslistarray;
     course();
     void courses_add_remove_list();
-    int limitedfunction;
+
 };
 
 
