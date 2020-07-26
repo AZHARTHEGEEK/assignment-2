@@ -10,7 +10,6 @@ using namespace std;
  teacher::teacher()
 {
     //Constructor of teacher class
-      cout<<endl;
 }
 //###########################################################################
 /*
@@ -47,7 +46,19 @@ void teacher :: printiddata()
 //###########################################################################
 
 void teacher ::courseenrolled()
-{
+{int a=true;
+    while(a)
+        {
+        system("CLS");
+        int b;
+    if(b==1)
+    {
+        cout<<endl<<"\t\t\tWronge Selection Try Again Sir";
+        cout<<endl<<"\t\t\tEnter Course Number Not Code";
+    }
+     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t\t\t Available Course list "<<endl;
+    cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
         cout<<endl<<"\t\t\t****************************************************************";
         for (int i = 0; i < *cn ; ++i) {
         cout << endl << "\t\t\t" <<"Course "<<i+1<<" Name  : " <<courseslistarray[i][0];
@@ -55,20 +66,24 @@ void teacher ::courseenrolled()
         cout<<endl<<"\t\t\t****************************************************************";}
         cout<<endl<<endl<<"\t\t\tThe Above Courses Currently Available To Teach\n\t\t\t";
         cout<<endl<<"\t\t\tSelect Course You Want To Teach & Enter Course Number";
-        cout<<endl<<"Enter : ";
+        cout<<endl<<"\t\t\tEnter : ";
         int inputct;
         cin>>inputct;
+
             for (int i = 0; i < *cn ; ++i)
             {
                 if(i+1==inputct)
                 {
+                    a=false;
                     cout<<endl<<"\t\t\tCourse Selected Successfully";
-                    while(true)
+                    while(a==0)
                     {
                         break;
                     }
                 }
-            }
+            } b=1;
+        }
+
         }
 
 //###########################################################################
