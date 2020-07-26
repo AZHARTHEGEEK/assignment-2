@@ -9,13 +9,12 @@ using namespace std;
 class course
 {
 public:
-    string courseslistarray[150][10]=  {
-                                        {"Object Oriented Programming (OOP)","CSC 104"},
-                                        {"Foreign Language Arabic","CSC "},
-                                        {"Probability & Statistics","MAT100"},
-                                        {"Communication Skills","ENG201"},
-                                        {"Digital Logic & Design","CEN201"},
-                                        {"Programing Fundamentals","CSC103"}};
+    string courseslistarray[50][100]=  {
+                                        {"Object Oriented Programming (OOP)","CSC 104","Mr. Zubair Uddin Shaikh"},
+                                        {"Foreign Language Arabic","CSC ","Ms. Maryam Feroz"},
+                                        {"Probability & Statistics","MAT100","Mr. Hassan Hashim"},
+                                        {"Communication Skills","ENG201","Ms. Samreen Riaz "},
+                                        {"Digital Logic & Design","CEN201","Mr. Haque Nawaz Lashari"}};
     course();
     void courseslist();
 };
