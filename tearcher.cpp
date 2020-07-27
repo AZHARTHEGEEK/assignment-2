@@ -90,13 +90,13 @@ void teacher ::courseenrolled()
 
 void teacher ::phonenumber()
 {
-    cout<<endl<<"\t\t\tPlease Enter Your Phone Number ";
+    cout<<endl<<endl<<"\t\t\tPlease Enter Your Phone Number ";
     getline(cin,sphonenumber);
     cin.ignore();
 }
 
 //###########################################################################
-void teacher ::emailaddress()
+void teacher ::setemailaddress()
 {
     cout<<endl<<"\t\t\tPlease Enter Your Email Adress ";
     getline(cin,semailaddress);

@@ -19,7 +19,7 @@ public:
     int generateUniqueInt();
     void courseenrolled();
     void phonenumber();
-    void emailaddress();
+    void setemailaddress();
     void changesemailaddress();
     void changesphonenumber();
 };

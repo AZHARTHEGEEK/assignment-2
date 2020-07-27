@@ -167,7 +167,7 @@ void teacheroption()
    b.generateUniqueInt();
    b.courseenrolled();
    b.phonenumber();
-   b.emailaddress();
+   b.setemailaddress();
    b.changesemailaddress();
    b.changesphonenumber();
    b.changeaddress();
@@ -207,16 +207,39 @@ void studentoption()
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Student "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
-    student c;
+    /*
+    Student Name
+b. Student ID
+c. Date of Birth
+d. Course(s) he/she is enrolled in
+e. Phone Number
+f. Mailing address
+g. Email address
 
-   c.setname();
-   c.generateUniqueInt();
-   c.courseenrolled();
-   c.phonenumber();
-   c.emailaddress();
-   c.changesemailaddress();
-   c.changesphonenumber();
-   c.changeaddress();
+
+    */
+    student c;
+    c.setname();
+    c.generateUniqueInt();
+    c.getbirth();
+    c.courseenrolled();
+    c.phonenumber();
+    c.setadress();
+    c.setemailaddress();
+
+    c.changesemailaddress();
+    c.changeaddress();
+    c.changesphonenumber();
+
+    /*
+    Constructor(s)
+b. Getters, Setters for every data member (if necessary).
+c. Change of email address
+d. Change of mailing address
+e. Change of Phone Number
+f. Enroll in a course >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    */
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
     cout<<"\t\t\t1. Run Again This Function"<<endl;
