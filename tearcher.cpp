@@ -27,7 +27,7 @@ int teacher :: generateUniqueInt()
 {
     cout<<endl<<"\t\t\tEnter Your Unique ID Please ";
     getline(cin,id);
-    cin.ignore();
+    //cin.ignore();
 
 }
 
@@ -45,54 +45,15 @@ void teacher :: printiddata()
 
 //###########################################################################
 
-void teacher ::courseenrolled()
-{int a=true;
-    while(a)
-        {
-        system("CLS");
-        int b;
-    if(b==1)
-    {
-        cout<<endl<<"\t\t\tWronge Selection Try Again Sir";
-        cout<<endl<<"\t\t\tEnter Course Number Not Code";
-    }
-     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-    cout<<endl<<"\t\t\t\t\t Available Course list "<<endl;
-    cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
-        cout<<endl<<"\t\t\t****************************************************************";
-        for (int i = 0; i < *cn ; ++i) {
-        cout << endl << "\t\t\t" <<"Course "<<i+1<<" Name  : " <<courseslistarray[i][0];
-        cout << endl << "\t\t\t" << "Course Code    : "<<courseslistarray[i][1];
-        cout<<endl<<"\t\t\t****************************************************************";}
-        cout<<endl<<endl<<"\t\t\tThe Above Courses Currently Available To Teach\n\t\t\t";
-        cout<<endl<<"\t\t\tSelect Course You Want To Teach & Enter Course Number";
-        cout<<endl<<"\t\t\tEnter : ";
-        int inputct;
-        cin>>inputct;
 
-            for (int i = 0; i < *cn ; ++i)
-            {
-                if(i+1==inputct)
-                {
-                    a=false;
-                    cout<<endl<<"\t\t\tCourse Selected Successfully";
-                    while(a==0)
-                    {
-                        break;
-                    }
-                }
-            } b=1;
-        }
-
-        }
 
 //###########################################################################
 
-void teacher ::phonenumber()
+void teacher :: setphonenumber()
 {
-    cout<<endl<<endl<<"\t\t\tPlease Enter Your Phone Number ";
+    cout<<endl<<"\t\t\tPlease Enter Your Phone Number ";
     getline(cin,sphonenumber);
-    cin.ignore();
+    //cin.ignore();
 }
 
 //###########################################################################
@@ -100,7 +61,7 @@ void teacher ::setemailaddress()
 {
     cout<<endl<<"\t\t\tPlease Enter Your Email Adress ";
     getline(cin,semailaddress);
-    cin.ignore();
+    //cin.ignore();
 }
 //###########################################################################
 void teacher :: changesemailaddress()
@@ -126,5 +87,58 @@ void teacher :: changesphonenumber()
         getline(cin,sphonenumber);
     }
     }
+void teacher::addcourse()
+{
+    courseslist();
+    cout<<endl<<endl<<"\t\t\tIf You Want to Add More Courses in Above List";
+    cout<<endl<<"\t\t\tEnter \"Y\" to Add \"N\" to Skip";
+    char check;
+    cout<<endl<<"\t\t\tEnter : ";
+    cin>>check;
+    if(check=='Y' || check == 'y')
+    {
+        coursesnumber = coursesnumber +1;
+        cout<<endl<<"\t\t\tEnter Course Name : ";
+        cin.ignore();
+        getline(cin,courseslistarray[coursesnumber][0]);
+        cout<<endl<<"\t\t\tEnter Course Code : ";
+        cin.ignore();
+        getline(cin,courseslistarray[coursesnumber][1]);
+        cout<<endl<<"\t\t\tEnter Course Teacher Name : ";
+        cin.ignore();
+        getline(cin,courseslistarray[coursesnumber][2]);
 
+        system("CLS");
+        cout<<endl<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+        cout<<endl<<"\t\t\tSelected Course Added Successfully";
+        cout<<endl<<"\t\t\tAfter Adding The Course Now Available Courses are";
+        cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+        courseslist();
+}
+}
+void teacher::removecourse()
+{
+    char check;
+    courseslist();
+    cout<<endl<<endl<<"\t\t\tIf You Want to Remove  Course in Above List";
+    cout<<endl<<"\t\t\tEnter \"Y\" to Remove \"N\" to Skip";
+    cout<<endl<<"\t\t\tEnter : ";
+    cin>>check;
+    if(check=='Y' || check == 'y')
+    {
+        int removecoursenumber;
+        coursesnumber = coursesnumber -  1;
+        cout<<endl<<"\t\t\tEnter Course Number : ";
+        cin>>removecoursenumber;
+        courseslistarray[removecoursenumber-1][0]= "Not Available";
+        courseslistarray[removecoursenumber-1][1]= "Not Available";
+        courseslistarray[removecoursenumber-1][2]= "Not Available";
 
+        system("CLS");
+        cout<<endl<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+        cout<<endl<<"/t/t/tSelected Course Removed Successfully";
+        cout<<endl<<"/t/t/tAfter Removing The Course Now Available Courses are";
+        cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+        courseslist();
+}
+}

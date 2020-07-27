@@ -17,11 +17,13 @@ public:
     string semailaddress;
     string sphonenumber;
     int generateUniqueInt();
-    void courseenrolled();
-    void phonenumber();
+
+    void setphonenumber();
     void setemailaddress();
     void changesemailaddress();
     void changesphonenumber();
+    void addcourse();
+    void removecourse();
 };
     //void printiddata();
 

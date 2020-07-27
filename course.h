@@ -16,12 +16,18 @@ public:
                                         {"Probability & Statistics","MAT100","Mr. Hassan Hashim"},
                                         {"Communication Skills","ENG201","Ms. Samreen Riaz "},
                                         {"Digital Logic & Design","CEN201","Mr. Haque Nawaz Lashari"}};
+    string stureg[200]=  { };
+    void courseenrolled();
     int coursesnumber = 5;
     int *cn=&coursesnumber;
+    int nums;
+    int *numstu = &nums;
     //string aray is most difficult part
     //string *cp=courseslistarray;
     course();
-    void courses_add_remove_list();
+    void courseslist();
+    void numberofstudentreg();
+    void changeofteacher();
 
 };
 
