@@ -32,6 +32,10 @@ int teacher :: generateUniqueInt()
     return 0;
 
 }
+void teacher::getid()
+{
+    cout<<endl<<"\t\t\tID : "<<id;
+}
 
 //###########################################################################
 /*
@@ -57,13 +61,20 @@ void teacher :: setphonenumber()
     getline(cin,sphonenumber);
     //cin.ignore();
 }
-
+void teacher::getphonenumber()
+{
+    cout<<endl<<"\t\t\tPhone Number : "<<sphonenumber;
+}
 //###########################################################################
 void teacher ::setemailaddress()
 {
     cout<<endl<<"\t\t\tPlease Enter Your Email Adress ";
     getline(cin,semailaddress);
     //cin.ignore();
+}
+void teacher::getemailaddress()
+{
+    cout<<endl<<"\t\t\tEmail Address : "<<semailaddress;
 }
 //###########################################################################
 void teacher :: changesemailaddress()
@@ -119,6 +130,14 @@ void teacher::addcourse()
         courseslist();
 }
 }
+void teacher::getaddcourses()
+{
+    cout<<endl<<"\t\t\tNew Course Added Sussesfully "<<course3<< " & "<<course4;;
+}
+void teacher::getremovecourses()
+{
+    cout<<endl<<"\t\t\tSelected Course Removed Sussesfully ";
+}
 void teacher::removecourse()
 {
     char check;
@@ -139,9 +158,22 @@ void teacher::removecourse()
 
         system("CLS");
         cout<<endl<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-        cout<<endl<<"/t/t/tSelected Course Removed Successfully";
-        cout<<endl<<"/t/t/tAfter Removing The Course Now Available Courses are";
+        cout<<endl<<"\t\t\tSelected Course Removed Successfully";
+        cout<<endl<<"\t\t\tAfter Removing The Course Now Available Courses are";
         cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
         courseslist();
 }
+}
+
+void teacher::printdata()
+{
+      getname();
+    getid();
+    getaddress();
+   getphonenumber();
+    getemailaddress();
+    getbirth();
+    getcourseteaching();
+   getaddcourses();
+    getremovecourses();
 }

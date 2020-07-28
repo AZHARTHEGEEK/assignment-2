@@ -31,7 +31,7 @@ string person::setbirth()
 
 string person::getbirth()
 {
-   cout<<endl<<"Date of Birth : "<<birth;
+   cout<<endl<<"\t\t\tDate of Birth : "<<birth;
 }
 //###########################################################################
 string person::setadress()

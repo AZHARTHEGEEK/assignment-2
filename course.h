@@ -16,6 +16,7 @@ public:
                                         {"Probability & Statistics","MAT100","Mr. Hassan Hashim"},
                                         {"Communication Skills","ENG201","Ms. Samreen Riaz "},
                                         {"Digital Logic & Design","CEN201","Mr. Haque Nawaz Lashari"}};
+    string course1,course2,course3,course4;
     string stureg[200]=  { };
     void courseenrolled();
     int coursesnumber = 5;
@@ -27,6 +28,7 @@ public:
     course();
     void courseslist();
     void numberofstudentreg();
+    void getcourseteaching();
     void changeofteacher();
     int *selectionst;
     string coursereglist[50][50];

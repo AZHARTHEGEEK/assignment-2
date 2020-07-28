@@ -93,7 +93,10 @@ void course :: courseenrolled()
             } b=1;
         }
 
-
+void course::getcourseteaching()
+{
+    cout<<endl<<"\t\t\tDear Teacher You are currently Teaching "<<course1<<" & "<<course2;
+}
 
 void course::coursedeenroll()
 {  /* int rt;

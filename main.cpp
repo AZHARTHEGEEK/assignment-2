@@ -169,31 +169,28 @@ void teacheroption()
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Teacher Section "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl;
-    teacher b("Zubair uddin Shaikh","PF786","House # 12 Nazimabad No 1,Karachi Pakistan", "030011111111","ZubairuddinShaikh@gmail.com ","12/01/1995","Zubair@gmail.com","0312000000");
+    teacher b("Zubair uddin Shaikh","PF786","House # 12 Nazimabad No 1,Karachi Pakistan", "030011111111","ZubairuddinShaikh@gmail.com ","12/01/1995","Zubair@gmail.com","0312000000","Object Oriented Programming", "Deep Learning","Bunglow # 12 Nazimabad No 1,Islamabad Pakistan","Machine Learning","Differential Mathematics" );
     //b.setname();           //To get Teacher Name      Setter
     //b.generateUniqueInt();   //To get Teacher ID      Setter
+    //getid();
     //b.setadress();
     //b.setphonenumber();
+    //getphonenumber()
    //b.setemailaddress();
+   //b.getemailaddress();
     //b.setbirth();
-    b.courseenrolled();
-
-    b.addcourse();
-    b.removecourse();
     //b.changesemailaddress();
     //b.changesphonenumber();
-    b.changeaddress();
-
-   /*
-g. Constructor(s)
-h. Getters, Setters for every data member (if necessary).
-i. Addition of course(s)>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-j. Removal of course(s)>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
+     //b.changeaddress();
+    //b.courseenrolled();
+     //b.getcourseteaching();
+    //b.addcourse();
+    //getaddcourses();
+    //b.removecourse();
+    //b.getremovecourses();
 
 
-   */
+   b.printdata();
 
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
@@ -230,28 +227,20 @@ void studentoption()
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Student "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
-    /*
-    Student Name
-b. Student ID
-c. Date of Birth
-d. Course(s) he/she is enrolled in
-e. Phone Number
-f. Mailing address
-g. Email address
-    */
-    student c;
-    c.setname();
-    c.generateUniqueInt();
-    c.getbirth();
 
-    c.courseenrolled();
-    c.setphonenumber();
-    c.setadress();
-    c.setemailaddress();
+    //student c;
+    //c.setname();
+    //c.generateUniqueInt();
+    //c.getbirth();
 
-    c.changesemailaddress();
-    c.changeaddress();
-    c.changesphonenumber();
+    //c.courseenrolled();
+    //c.setphonenumber();
+    //c.setadress();
+    //c.setemailaddress();
+
+   // c.changesemailaddress();
+    //c.changeaddress();
+   // c.changesphonenumber();
 
     /*
     Constructor(s)
