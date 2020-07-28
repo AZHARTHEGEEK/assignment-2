@@ -33,9 +33,9 @@ void course::numberofstudentreg()
     cout<<endl<<endl<<"The Number of Students Enroll In Differnt Courses Are "<<*numstu;
 
 }
-void course :: courseenrolled(int swito)
+void course :: courseenrolled()
 {
-    int rt;
+    /*int rt;
     swito=rt;
     string cna,cna2;
     if(rt==0){
@@ -56,11 +56,13 @@ void course :: courseenrolled(int swito)
     {
 
 
-    int a=true;
+
     while(a)
         {
         system("CLS");
+        */
         int b;
+        int a=true;
     if(b==1)
     {
         cout<<endl<<"\t\t\twrong Selection Try Again ";
@@ -68,8 +70,8 @@ void course :: courseenrolled(int swito)
     }
      courseslist();
         //cout<<endl<<endl<<"\t\t\tThe Above Courses Currently Available To Teach\n\t\t\t";
-        cout<<endl<<"\t\t\tYou are Eligible to "<< cna <<" only "<<*selectionst<<" Courses.";
-        cout<<endl<<"\t\t\tSelect Course Number for "<<fl<< cna2  <<" & Enter Course Number";
+        //cout<<endl<<"\t\t\tYou are Eligible to  only "<<*selectionst<<" Courses.";
+        cout<<endl<<"\t\t\tEnter Course Number to Continue Selection";
         cout<<endl<<"\t\t\tEnter : ";
         int inputct;
         cin>>inputct;
@@ -80,9 +82,9 @@ void course :: courseenrolled(int swito)
                 {
                     a=false;
                     cout<<endl<<"\t\t\tCourse Selected Successfully";
-                     coursereglist[fl][0]=courseslistarray[inputct-1][0];
-                     coursereglist[fl][1]=courseslistarray[inputct-1][1];
-                     coursereglist[fl][2]=courseslistarray[inputct-1][2];
+                     /*coursereglist[0][0]=courseslistarray[inputct-1][0];
+                     coursereglist[0][1]=courseslistarray[inputct-1][1];
+                     coursereglist[0][2]=courseslistarray[inputct-1][2];*/
                     while(a==false)
                     {
                         break;
@@ -90,12 +92,11 @@ void course :: courseenrolled(int swito)
                 }
             } b=1;
         }
-        }}
 
 
 
-void course::coursedeenroll(int swito)
-{   int rt;
+void course::coursedeenroll()
+{  /* int rt;
     swito=rt;
     string cna,cna2;
    if(rt==0){
@@ -109,8 +110,9 @@ void course::coursedeenroll(int swito)
         *selectionst= 1;
         cna = " Teaching Enrolled in ";
     }
+    */
 
-    cout<<endl<<"You are Currently"<<cna<<*selectionst<<" courses.";
+    cout<<endl<<"You are Currently in"<<*selectionst<<" courses.";
     cout<<endl<<"\t\t\t****************************************************************";
     for (int i = 0; i < *selectionst ; ++i) {
         cout << endl << "\t\t\t" <<"Course "<<i+1<<" Name  : " <<coursereglist[i][0];

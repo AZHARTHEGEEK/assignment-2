@@ -169,21 +169,19 @@ void teacheroption()
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Teacher Section "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl;
-    teacher b("Zubair uddin Shaikh","PF786","House # 12 Nazimabad No 1,Karachi Pakistan", "030011111111","ZubairuddinShaikh@gmail.com ","12/01/1995");
+    teacher b("Zubair uddin Shaikh","PF786","House # 12 Nazimabad No 1,Karachi Pakistan", "030011111111","ZubairuddinShaikh@gmail.com ","12/01/1995","Zubair@gmail.com","0312000000");
     //b.setname();           //To get Teacher Name      Setter
     //b.generateUniqueInt();   //To get Teacher ID      Setter
     //b.setadress();
     //b.setphonenumber();
    //b.setemailaddress();
     //b.setbirth();
-
-    int w=0;
-    b.courseenrolled(w);
+    b.courseenrolled();
 
     b.addcourse();
     b.removecourse();
-    b.changesemailaddress();
-    b.changesphonenumber();
+    //b.changesemailaddress();
+    //b.changesphonenumber();
     b.changeaddress();
 
    /*
@@ -245,8 +243,8 @@ g. Email address
     c.setname();
     c.generateUniqueInt();
     c.getbirth();
-    int w=0;
-    c.courseenrolled(w);
+
+    c.courseenrolled();
     c.setphonenumber();
     c.setadress();
     c.setemailaddress();
@@ -302,8 +300,8 @@ void courseoption()
  course d;
 d.courseslist();
 d.numberofstudentreg();
-int w=0;
-    d.courseenrolled(w);
+
+    d.courseenrolled();
 /*
 Course Name
 b. Course Code

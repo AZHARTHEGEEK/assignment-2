@@ -74,7 +74,8 @@ void teacher :: changesemailaddress()
     if(name=='Y' || name == 'y')
     {
         cout<<"\t\t\tEnter Your Email New Address : ";
-        getline(cin,semailaddress);
+        getline(cin,changesemailaddress1);
+        semailaddress=changesemailaddress1;
     }
     }
 //###########################################################################

@@ -14,7 +14,7 @@ private:
 
 public:
     teacher();
-    teacher(string name ,string id ,string address ,string sphonenumber ,string semailaddress ,string birth)
+    teacher(string name ,string id ,string address ,string sphonenumber ,string semailaddress ,string birth,string changesemailaddress1,string changephonenumber1)
     {
         this->name=name;
         this->id=id;
@@ -22,9 +22,12 @@ public:
         this->sphonenumber=sphonenumber;
         this->semailaddress=semailaddress;
         this->birth=birth;
+        this->changesemailaddress1 =semailaddress;
+        this->changephonenumber1=sphonenumber;
 
 
     }
+    string changesemailaddress1,changephonenumber1;
     string semailaddress;
     string sphonenumber;
     int generateUniqueInt();

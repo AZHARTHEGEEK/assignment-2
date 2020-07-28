@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1595940121 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
+1595955051 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
 	<iostream>
 	<conio.h>
 	<string>
@@ -19,7 +19,7 @@
 	"base.h"
 	<conio.h>
 
-1595946422 c:\users\hp\documents\cpp\assignment-2\course.h
+1595954846 c:\users\hp\documents\cpp\assignment-2\course.h
 	<conio.h>
 	<iostream>
 	<string>
@@ -48,7 +48,7 @@
 	<iostream>
 	<string.h>
 
-1595944852 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
+1595954932 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
 	<iostream>
 	<string>
 	<conio.h>
@@ -66,7 +66,7 @@
 	"teacher.h"
 	<conio.h>
 
-1595946642 c:\users\hp\documents\cpp\assignment-2\teacher.h
+1595955517 c:\users\hp\documents\cpp\assignment-2\teacher.h
 	<iostream>
 	<conio.h>
 	<string>
