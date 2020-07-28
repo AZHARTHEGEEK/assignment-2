@@ -12,8 +12,17 @@ public:
     string birth;
     string address;
     string id;
+    string changeaddress1;
 
     person();
+    person(string name,string birth ,string address ,string changeaddress1)
+    {
+        this->name=name;
+        this->birth=birth;
+        this->address=address;
+        this->changeaddress1=address;
+    }
+
     //Getter & Setter for name
     string getname();
     string setname();

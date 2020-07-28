@@ -14,6 +14,17 @@ private:
 
 public:
     teacher();
+    teacher(string name ,string id ,string address ,string sphonenumber ,string semailaddress ,string birth)
+    {
+        this->name=name;
+        this->id=id;
+        this->address=address;
+        this->sphonenumber=sphonenumber;
+        this->semailaddress=semailaddress;
+        this->birth=birth;
+
+
+    }
     string semailaddress;
     string sphonenumber;
     int generateUniqueInt();

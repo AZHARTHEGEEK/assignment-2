@@ -17,7 +17,7 @@ public:
                                         {"Communication Skills","ENG201","Ms. Samreen Riaz "},
                                         {"Digital Logic & Design","CEN201","Mr. Haque Nawaz Lashari"}};
     string stureg[200]=  { };
-    void courseenrolled();
+    void courseenrolled(int);
     int coursesnumber = 5;
     int *cn=&coursesnumber;
     int nums;
@@ -28,6 +28,10 @@ public:
     void courseslist();
     void numberofstudentreg();
     void changeofteacher();
+    int *selectionst;
+    string coursereglist[50][50];
+    void coursedeenroll(int);
+    int swito;
 
 };
 

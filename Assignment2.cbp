@@ -14,8 +14,6 @@
 		</Build>
 		<Unit filename="Student.cpp" />
 		<Unit filename="Student.h" />
-		<Unit filename="base.cpp" />
-		<Unit filename="base.h" />
 		<Unit filename="course.cpp" />
 		<Unit filename="course.h" />
 		<Unit filename="main.cpp" />

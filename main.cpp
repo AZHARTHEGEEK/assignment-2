@@ -116,17 +116,23 @@ void mainloop()
 void personoption()
 {
 
-    person a;
+    person a("Muhammad Azhar","12/JAN/2020","House # 80  Nazimabad No#1 Karachi","Flat No # 15  Nazimabad No#1 Karachi");
         cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Person "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
-    a.setname();
-    a.setbirth();
-    a.setadress();
-    a.changeaddress();
+    cout<<endl<<"\t\t\tThis Space Is Dadicated to User Define Vales \n\t\t\tIf You want to take User Values De-Comment The Below Functions define in main.cpp & in person Every Function Work Correctley";
+    //a.setname();       //To get Person Name      Setter
+    //a.setbirth();      //To Get Person Birth     Setter
+    //a.setadress();     //To Get Person Address    Setter
+    //a.changeaddress(); //To Change Person Address   Setter
+
+    //a.getname();        //Getter
+    //a.getbirth();       //Getter
+    //a.getaddress();     //Getter
+
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\tSummary :";
-    a.printdata();
+    a.printdata();   // Print Data
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
     char classselection;
@@ -163,20 +169,22 @@ void teacheroption()
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Teacher Section "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl;
-    teacher b;
-    b.setname();
-    b.generateUniqueInt();
-    b.setadress();
-    b.setphonenumber();
-    b.setemailaddress();
-    b.setbirth();
-    b.courseenrolled();
+    teacher b("Zubair uddin Shaikh","PF786","House # 12 Nazimabad No 1,Karachi Pakistan", "030011111111","ZubairuddinShaikh@gmail.com ","12/01/1995");
+    //b.setname();           //To get Teacher Name      Setter
+    //b.generateUniqueInt();   //To get Teacher ID      Setter
+    //b.setadress();
+    //b.setphonenumber();
+   //b.setemailaddress();
+    //b.setbirth();
+
+    int w=0;
+    b.courseenrolled(w);
 
     b.addcourse();
     b.removecourse();
-   b.changesemailaddress();
-   b.changesphonenumber();
-   b.changeaddress();
+    b.changesemailaddress();
+    b.changesphonenumber();
+    b.changeaddress();
 
    /*
 g. Constructor(s)
@@ -232,18 +240,16 @@ d. Course(s) he/she is enrolled in
 e. Phone Number
 f. Mailing address
 g. Email address
-
-
     */
     student c;
     c.setname();
     c.generateUniqueInt();
     c.getbirth();
-    c.courseenrolled();
+    int w=0;
+    c.courseenrolled(w);
     c.setphonenumber();
     c.setadress();
     c.setemailaddress();
-    c.courseenrolled();
 
     c.changesemailaddress();
     c.changeaddress();
@@ -296,6 +302,8 @@ void courseoption()
  course d;
 d.courseslist();
 d.numberofstudentreg();
+int w=0;
+    d.courseenrolled(w);
 /*
 Course Name
 b. Course Code
@@ -313,6 +321,7 @@ d. Teacher of the course
 
     cout<<endl<<"\t\t\tEnter : ";
     cin>>classselection;
+
     if (classselection == '3')
     {
     	while(true)

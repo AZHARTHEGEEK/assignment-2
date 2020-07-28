@@ -3,6 +3,7 @@
 #include<string>
 #include"person.h"
 #include"teacher.h"
+#include"course.h"
 
 
 using namespace std;
@@ -28,6 +29,7 @@ int teacher :: generateUniqueInt()
     cout<<endl<<"\t\t\tEnter Your Unique ID Please ";
     getline(cin,id);
     //cin.ignore();
+    return 0;
 
 }
 

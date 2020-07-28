@@ -2,6 +2,7 @@
 #include<string>
 #include<conio.h>
 #include"teacher.h"
+#include"course.h"
 
 
 #include"Student.h"

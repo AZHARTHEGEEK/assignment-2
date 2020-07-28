@@ -1,15 +1,16 @@
 # depslib dependency file v1.0
-1595855457 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
+1595940121 source:c:\users\hp\documents\cpp\assignment-2\course.cpp
 	<iostream>
 	<conio.h>
 	<string>
 	"course.h"
 
-1595743182 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
+1595930367 source:c:\users\hp\documents\cpp\assignment-2\student.cpp
 	<iostream>
 	<string>
 	<conio.h>
 	"teacher.h"
+	"course.h"
 	"Student.h"
 
 1595703691 source:c:\users\hp\documents\cpp\assignment-2\base.cpp
@@ -18,35 +19,36 @@
 	"base.h"
 	<conio.h>
 
-1595856470 c:\users\hp\documents\cpp\assignment-2\course.h
+1595946422 c:\users\hp\documents\cpp\assignment-2\course.h
 	<conio.h>
 	<iostream>
 	<string>
 
-1595856122 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
+1595930350 source:c:\users\hp\documents\cpp\assignment-2\tearcher.cpp
 	<iostream>
 	<conio.h>
 	<string>
 	"person.h"
 	"teacher.h"
+	"course.h"
 
 1595702691 c:\users\hp\documents\cpp\assignment-2\base.h
 	<conio.h>
 	<iostream>
 	<string.h>
 
-1595712378 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
+1595945298 source:c:\users\hp\documents\cpp\assignment-2\person.cpp
 	<iostream>
 	<string>
 	<conio.h>
 	"person.h"
 
-1595712132 c:\users\hp\documents\cpp\assignment-2\person.h
+1595945291 c:\users\hp\documents\cpp\assignment-2\person.h
 	<conio.h>
 	<iostream>
 	<string.h>
 
-1595856144 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
+1595944852 source:c:\users\hp\documents\cpp\assignment-2\main.cpp
 	<iostream>
 	<string>
 	<conio.h>
@@ -64,7 +66,7 @@
 	"teacher.h"
 	<conio.h>
 
-1595855598 c:\users\hp\documents\cpp\assignment-2\teacher.h
+1595946642 c:\users\hp\documents\cpp\assignment-2\teacher.h
 	<iostream>
 	<conio.h>
 	<string>

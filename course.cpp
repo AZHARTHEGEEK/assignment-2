@@ -33,20 +33,43 @@ void course::numberofstudentreg()
     cout<<endl<<endl<<"The Number of Students Enroll In Differnt Courses Are "<<*numstu;
 
 }
-void course ::courseenrolled()
-{int a=true;
+void course :: courseenrolled(int swito)
+{
+    int rt;
+    swito=rt;
+    string cna,cna2;
+    if(rt==0){
+        // For Student
+        *selectionst = 2;
+        cna = " Enroll ";
+        cna2 = " Course Enrollment ";
+    }
+    else
+    {
+        // For Teacher
+        *selectionst= 1;
+        cna = " Teach ";
+        cna2 = " Teaching Course Selection ";
+    }
+
+    for(int fl = 0;fl <=*selectionst;fl++)
+    {
+
+
+    int a=true;
     while(a)
         {
         system("CLS");
         int b;
     if(b==1)
     {
-        cout<<endl<<"\t\t\tWronge Selection Try Again ";
+        cout<<endl<<"\t\t\twrong Selection Try Again ";
         cout<<endl<<"\t\t\tEnter Course Number Not Code";
     }
      courseslist();
         //cout<<endl<<endl<<"\t\t\tThe Above Courses Currently Available To Teach\n\t\t\t";
-        cout<<endl<<"\t\t\tSelect Course & Enter Course Number";
+        cout<<endl<<"\t\t\tYou are Eligible to "<< cna <<" only "<<*selectionst<<" Courses.";
+        cout<<endl<<"\t\t\tSelect Course Number for "<<fl<< cna2  <<" & Enter Course Number";
         cout<<endl<<"\t\t\tEnter : ";
         int inputct;
         cin>>inputct;
@@ -57,6 +80,9 @@ void course ::courseenrolled()
                 {
                     a=false;
                     cout<<endl<<"\t\t\tCourse Selected Successfully";
+                     coursereglist[fl][0]=courseslistarray[inputct-1][0];
+                     coursereglist[fl][1]=courseslistarray[inputct-1][1];
+                     coursereglist[fl][2]=courseslistarray[inputct-1][2];
                     while(a==false)
                     {
                         break;
@@ -64,7 +90,41 @@ void course ::courseenrolled()
                 }
             } b=1;
         }
+        }}
+
+
+
+void course::coursedeenroll(int swito)
+{   int rt;
+    swito=rt;
+    string cna,cna2;
+   if(rt==0){
+        // For Student
+        *selectionst = 2;
+        cna =" Enrolled in ";
+    }
+  else
+    {
+        // For Teacher
+        *selectionst= 1;
+        cna = " Teaching Enrolled in ";
+    }
+
+    cout<<endl<<"You are Currently"<<cna<<*selectionst<<" courses.";
+    cout<<endl<<"\t\t\t****************************************************************";
+    for (int i = 0; i < *selectionst ; ++i) {
+        cout << endl << "\t\t\t" <<"Course "<<i+1<<" Name  : " <<coursereglist[i][0];
+        cout << endl << "\t\t\t" << "Course Code    : "<<coursereglist[i][1];
+        if(*selectionst==2)
+            {
+        cout << endl << "\t\t\t" << "Course Teacher : "<<coursereglist[i][2]<<endl;
         }
+        cout<<endl<<"\t\t\t****************************************************************";
+}
+}
+
+
+
 void course::changeofteacher()
 {
     int a=true;
@@ -110,4 +170,3 @@ void course::changeofteacher()
         }
 }
 }
-

@@ -56,7 +56,8 @@ string person :: changeaddress()
     {
         cout<<endl<<"\t\t\tEnter Your New Address : ";
         cin.ignore();
-        getline(cin,address);
+        getline(cin,changeaddress1);
+        address =changeaddress1;
     }
     }
 
