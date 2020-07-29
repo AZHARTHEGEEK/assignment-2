@@ -11,7 +11,7 @@ class course
 {
 public:
     course();
-    course(int nums1,int nums2,int nums3,int a1,int b2,int c3)
+    course(int nums1,int nums2,int nums3,int a1,int b2,int c3,int dnum,string course1,string course2,string course3)
     {
         this->  nums1=nums1  ;
         this->  nums2=nums2  ;
@@ -19,13 +19,18 @@ public:
         this->  a1=a1  ;
         this->  b2=b2  ;
         this->   c3=c3 ;
+        this->  course1=course1 ;
+        this->  course2=course2  ;
+        this->   course3=course3 ;
+        this-> entercoursenumber=dnum;
+
     }
     string courseslistarray[50][100]=  {
-                                        {"Object Oriented Programming (OOP)","CSC 104","Mr. Zubair Uddin Shaikh"},
-                                        {"Foreign Language Arabic","CSC ","Ms. Maryam Feroz"},
-                                        {"Probability & Statistics","MAT100","Mr. Hassan Hashim"},
-                                        {"Communication Skills","ENG201","Ms. Samreen Riaz "},
-                                        {"Digital Logic & Design","CEN201","Mr. Haque Nawaz Lashari"}};
+                                        {" Object Oriented Programming (OOP) "," CSC 104 "," Mr. Zubair Uddin Shaikh "},
+                                        {" Foreign Language Arabic "," CSC 500 "," Ms. Maryam Feroz "},
+                                        {" Probability & Statistics "," MAT100 "," Mr. Hassan Hashim "},
+                                        {" Communication Skills "," ENG201 "," Ms. Samreen Riaz "},
+                                        {" Digital Logic & Design "," CEN201 "," Mr. Haque Nawaz Lashari "}};
     string course1,course2,course3,course4;
     string stureg[200]=  { };
     void courseenrolled();
@@ -43,6 +48,11 @@ public:
     void changeofteacher();
     int *selectionst;
     string coursereglist[50][50];
+    int entercoursenumber;
+    void getaddcourses();
+    void addcourse();
+    void removecourse();
+    void getremovecourses();
     void coursedeenroll();
     int swito;
     int operator++();

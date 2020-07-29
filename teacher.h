@@ -44,10 +44,6 @@ public:
     void getemailaddress();
     void changesemailaddress();
     void changesphonenumber();
-    void getaddcourses();
-    void addcourse();
-    void removecourse();
-    void getremovecourses();
 
     void printdata();
 };

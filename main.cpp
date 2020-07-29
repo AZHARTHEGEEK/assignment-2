@@ -1,5 +1,22 @@
-//  Code Available Also Available on My GitHub Account At github.com/azharthegeek/assignment-2
-//  Currently Private Repository
+/*
+   #Attension
+
+  *) GNU General Public License v3.0
+
+  *) Code using Hybrid Inheritance
+
+  *) Code Available Also Available on My GitHub Account At github.com/azharthegeek/assignment-2
+     Currently Private Repository after Assignment Submission Last date it is switch to Public Repository
+     So Everyone can participate but after project submission last date in Future
+
+  *) If you want to Run This Program by getting Values From User Visit Repository and revert code to commit hash 7504842fdf787
+
+  *) Almost Half of the code is commented due to defined Values The code is designed for users so skip these other vise follow above point.
+
+  *) I tried My best to reduce errors according to my command (Knowledge) on c++.Hope make it better in Future.
+
+*/
+
 
 #include<iostream>
 #include<string>
@@ -78,8 +95,8 @@ void mainloop()
     cout<<"\t\t\t1. Person "<<endl;
     cout<<"\t\t\t2. Teacher"<<endl;
     cout<<"\t\t\t3. Student"<<endl;
-    cout<<"\t\t\t4. Available Courses List"<<endl;
-    cout<<"\t\t\t5. Run Whole Functionalities"<<endl;
+    cout<<"\t\t\t4. Course "<<endl;
+    cout<<"\t\t\t5. Run Whole Program Functionalities"<<endl;
     cout<<"\t\t\t6. Exits";
 
     cout<<endl<<endl<<"\t\t\tEnter the Selected Number To Continue : ";
@@ -120,7 +137,7 @@ void personoption()
         cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Person "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
-    cout<<endl<<"\t\t\tThis Space Is Dadicated to User Define Vales \n\t\t\tIf You want to take User Values De-Comment The Below Functions define in main.cpp & in person Every Function Work Correctley";
+    //cout<<endl<<"\t\t\tThis Space Is Dadicated to User Define Vales \n\t\t\tIf You want to take User Values De-Comment The Below Functions define in main.cpp & in person Every Function Work Correctley";
     //a.setname();       //To get Person Name      Setter
     //a.setbirth();      //To Get Person Birth     Setter
     //a.setadress();     //To Get Person Address    Setter
@@ -295,13 +312,19 @@ void courseoption()
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\tWelcome to Course Available list "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
-    course d(12,54,22,1,3,5);
+    course d(12,54,22,1,3,5,4," OOP "," DLD ", "Arabic");
     //d.courseslist();
     //d.numberofstudentreg();
     //d.courseenrolled();
     //d.courselist();
+    //d.changeofteacher();
+    //d.getaddcourses();
+    //d.getremovecourses();
 
-    d.printdata();
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\tSummary (Print data):";
+    d.printdata();   // Print Data
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
@@ -341,6 +364,22 @@ teacher b;
 student c;
 course d;
 
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t\t\t\t Welcome to Person "<<endl;
+    cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
+a.printdata();
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t\t\t\t Welcome to Teacher "<<endl;
+    cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
+b.printdata();
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t\t\t\t Welcome to Student "<<endl;
+    cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
+c.printdata();
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t\t\t\t Welcome to Course "<<endl;
+    cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
+d.printdata();
 
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;

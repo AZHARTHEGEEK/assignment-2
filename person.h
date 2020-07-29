@@ -27,7 +27,7 @@ public:
     string getname();
     string setname();
     //Getter & Setter for birth
-    string getbirth();
+    void getbirth();
     string setbirth();
     //Getter & Setter for Address
     string getaddress();

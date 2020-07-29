@@ -6,7 +6,7 @@ using namespace std;
 
   person::person()
   {
-      //Constructor of person class
+      cout<<endl<<"\t\t\t code Also Available on github.com/AZHARTHEGEEK/assignment-2 after 30 july";
       cout<<endl;
   }
 //###########################################################################
@@ -29,7 +29,7 @@ string person::setbirth()
 }
 //###########################################################################
 
-string person::getbirth()
+void person::getbirth()
 {
    cout<<endl<<"\t\t\tDate of Birth : "<<birth;
 }

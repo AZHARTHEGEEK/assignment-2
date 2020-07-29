@@ -14,7 +14,7 @@ course::course()
 void course::courseslist()
 {
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-    cout<<endl<<"\t\t\t\t\t Available Course list "<<endl;
+    cout<<endl<<"\t\t\t\t\t      Available Course list "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
 cout<<endl<<"\t\t\t****************************************************************";
 for (int i = 0; i < *cn ; ++i) {
@@ -176,6 +176,7 @@ void course::coursedeenroll()
 
 void course::changeofteacher()
 {
+
     int a=true;
     while(a)
         {
@@ -219,6 +220,77 @@ void course::changeofteacher()
         }
 }
 }
+//################################################################################################
+//###################################################################################################
+void course::addcourse()
+{
+    courseslist();
+    cout<<endl<<endl<<"\t\t\tIf You Want to Add More Courses in Above List";
+    cout<<endl<<"\t\t\tEnter \"Y\" to Add \"N\" to Skip";
+    char check;
+    cout<<endl<<"\t\t\tEnter : ";
+    cin>>check;
+    if(check=='Y' || check == 'y')
+    {
+        coursesnumber = coursesnumber +1;
+        cout<<endl<<"\t\t\tEnter Course Name : ";
+        cin.ignore();
+        getline(cin,courseslistarray[coursesnumber][0]);
+        cout<<endl<<"\t\t\tEnter Course Code : ";
+        cin.ignore();
+        getline(cin,courseslistarray[coursesnumber][1]);
+        cout<<endl<<"\t\t\tEnter Course Teacher Name : ";
+        cin.ignore();
+        getline(cin,courseslistarray[coursesnumber][2]);
+
+        system("CLS");
+        cout<<endl<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+        cout<<endl<<"\t\t\tSelected Course Added Successfully";
+        cout<<endl<<"\t\t\tAfter Adding The Course Now Available Courses are";
+        cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+        courseslist();
+}
+}
+void course::getaddcourses()
+{
+    cout<<endl<<"\t\t\tNew Course Added Sussesfully "<<course3<< " & "<<course4;
+}
+
+void course::removecourse()
+{
+    char check;
+    courseslist();
+    cout<<endl<<endl<<"\t\t\tIf You Want to Remove  Course in Above List";
+    cout<<endl<<"\t\t\tEnter \"Y\" to Remove \"N\" to Skip";
+    cout<<endl<<"\t\t\tEnter : ";
+    cin>>check;
+    if(check=='Y' || check == 'y')
+    {
+
+        coursesnumber = coursesnumber -  1;
+        cout<<endl<<"\t\t\tEnter Course Number : ";
+        cin>>entercoursenumber;
+        courseslistarray[entercoursenumber-1][0]= "Not Available";
+        courseslistarray[entercoursenumber-1][1]= "Not Available";
+        courseslistarray[entercoursenumber-1][2]= "Not Available";
+
+        system("CLS");
+        cout<<endl<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+        cout<<endl<<"\t\t\tSelected Course Removed Successfully";
+        cout<<endl<<"\t\t\tAfter Removing The Course Now Available Courses are";
+        cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+        courseslist();
+}
+}
+void course::getremovecourses()
+{
+
+    //cout<<endl<<"\t\t\tEnter Course Number"
+    //removecourse();
+    cout<<endl<<"\t\t\tSelected Course Number"<<entercoursenumber<<" Removed Sussesfully ";
+}
+//###################################################################################################
+//#################################################################################################
  int course::operator++()
  {
       cout<<endl<<endl<<"\t\t\tResultant is  "<<course::courseslistarray[0][0] + course::courseslistarray[1][0] + course::course::courseslistarray[2][0]<<endl;
@@ -231,5 +303,10 @@ void course::printdata()
 {
     courseslist();
     numberofstudentreg();
+    //changeofteacher();
+    cout<<endl;
+    getaddcourses();
+    cout<<endl;
+    getremovecourses();
     operator++();
 }
