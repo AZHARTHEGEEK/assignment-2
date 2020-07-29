@@ -293,10 +293,12 @@ void course::getremovecourses()
 //#################################################################################################
  int course::operator++()
  {
+     cout<<endl<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
       cout<<endl<<endl<<"\t\t\tResultant is  "<<course::courseslistarray[0][0] + course::courseslistarray[1][0] + course::course::courseslistarray[2][0]<<endl;
       cout<<endl<<"\t\t\tResultant is "<<course::courseslistarray[0][1] + course::courseslistarray[1][1] + course::courseslistarray[2][1]<<endl;
       cout<<endl<<"\t\t\tResultant is "<<course::nums1 + course::nums2 + course::nums3<<endl;
       cout<<endl<<"\t\t\tResultant is "<<course::courseslistarray[0][2] + course::courseslistarray[1][2] + course::courseslistarray[2][2]<<endl;
+      cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
  };
 void course::printdata()
