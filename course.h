@@ -10,6 +10,16 @@ using namespace std;
 class course
 {
 public:
+    course();
+    course(int nums1,int nums2,int nums3,int a1,int b2,int c3)
+    {
+        this->  nums1=nums1  ;
+        this->  nums2=nums2  ;
+        this->   nums3=nums3 ;
+        this->  a1=a1  ;
+        this->  b2=b2  ;
+        this->   c3=c3 ;
+    }
     string courseslistarray[50][100]=  {
                                         {"Object Oriented Programming (OOP)","CSC 104","Mr. Zubair Uddin Shaikh"},
                                         {"Foreign Language Arabic","CSC ","Ms. Maryam Feroz"},
@@ -19,13 +29,14 @@ public:
     string course1,course2,course3,course4;
     string stureg[200]=  { };
     void courseenrolled();
+    int a1,b2,c3;
+    void getcourseenrolledstu(int,int,int);
     int coursesnumber = 5;
     int *cn=&coursesnumber;
-    int nums;
+    int nums1,nums2,nums3,nums;
     int *numstu = &nums;
     //string aray is most difficult part
     //string *cp=courseslistarray;
-    course();
     void courseslist();
     void numberofstudentreg();
     void getcourseteaching();
@@ -34,6 +45,8 @@ public:
     string coursereglist[50][50];
     void coursedeenroll();
     int swito;
+    int operator++();
+    void printdata();
 
 };
 

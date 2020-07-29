@@ -30,7 +30,12 @@ for (int i = 0; i < *cn ; ++i) {
 }
 void course::numberofstudentreg()
 {
-    cout<<endl<<endl<<"The Number of Students Enroll In Differnt Courses Are "<<*numstu;
+
+
+    cout<<endl<<"\t\t\tThe Number of Students Enroll In First Course Are "<<nums1;
+    cout<<endl<<"\t\t\tThe Number of Students Enroll In Second Course Are "<<nums2;
+    cout<<endl<<"\t\t\tThe Number of Students Enroll In Third Course Are "<<nums3;
+    cout<<endl<<endl<<"\t\t\tThe Number of Students Enroll In Differnt Courses Are "<<course::nums1 + course::nums2 + course::nums3;
 
 }
 void course :: courseenrolled()
@@ -96,6 +101,45 @@ void course :: courseenrolled()
 void course::getcourseteaching()
 {
     cout<<endl<<"\t\t\tDear Teacher You are currently Teaching "<<course1<<" & "<<course2;
+}
+void course::getcourseenrolledstu(int a,int b,int c)
+{
+    int d;
+    /*for(d=0;d<=2;d++)
+    {
+    cout<<endl<<"\t\t\tEnter : ";
+    int inputct;
+    cin>>inputct;
+
+
+    //If You Un comment this below change "a" with inputct.
+
+    */
+    // Here due to Defined Values Program Variable some Functions changed
+    cout<<endl<<"\n\t\t\tYou are Currentley Enrolled In : ";
+    cout<<endl<<"\t\t\t****************************************************************";
+    cout << endl << "\t\t\t" <<"Course "<</*d+1<<*/" Name  : " <<courseslistarray[a-1][0];
+    cout << endl << "\t\t\t" << "Course Code    : "<<courseslistarray[a-1][1];
+    cout << endl << "\t\t\t" << "Course Teacher : "<<courseslistarray[a-1][2]<<endl;
+    cout<<endl<<"\t\t\t****************************************************************";
+    cout << endl << "\t\t\t" <<"Course "<</*d+1<<*/" Name  : " <<courseslistarray[b-1][0];
+    cout << endl << "\t\t\t" << "Course Code    : "<<courseslistarray[b-1][1];
+    cout << endl << "\t\t\t" << "Course Teacher : "<<courseslistarray[b-1][2]<<endl;
+    cout<<endl<<"\t\t\t****************************************************************";
+    cout << endl << "\t\t\t" <<"Course "<</*d+1<<*/" Name  : " <<courseslistarray[c-1][0];
+    cout << endl << "\t\t\t" << "Course Code    : "<<courseslistarray[c-1][1];
+    cout << endl << "\t\t\t" << "Course Teacher : "<<courseslistarray[c-1][2]<<endl;
+    cout<<endl<<"\t\t\t****************************************************************";
+    //}
+    /*
+    {
+        cout<<endl<<endl<<"\t\t\tEnter Number of Student Of First Course \n\t\t\tEnter : ";
+        cin>>nums1;
+        cout<<endl<<endl<<"\t\t\tEnter Number of Student Of Second Course \n\t\t\tEnter : ";
+        cin>>nums2;
+        cout<<endl<<endl<<"\t\t\tEnter Number of Student Of Third Course \n\t\t\tEnter : ";
+        cin>>nums3;
+    }*/
 }
 
 void course::coursedeenroll()
@@ -174,4 +218,18 @@ void course::changeofteacher()
             } b=1;
         }
 }
+}
+ int course::operator++()
+ {
+      cout<<endl<<endl<<"\t\t\tResultant is  "<<course::courseslistarray[0][0] + course::courseslistarray[1][0] + course::course::courseslistarray[2][0]<<endl;
+      cout<<endl<<"\t\t\tResultant is "<<course::courseslistarray[0][1] + course::courseslistarray[1][1] + course::courseslistarray[2][1]<<endl;
+      cout<<endl<<"\t\t\tResultant is "<<course::nums1 + course::nums2 + course::nums3<<endl;
+      cout<<endl<<"\t\t\tResultant is "<<course::courseslistarray[0][2] + course::courseslistarray[1][2] + course::courseslistarray[2][2]<<endl;
+
+ };
+void course::printdata()
+{
+    courseslist();
+    numberofstudentreg();
+    operator++();
 }

@@ -16,12 +16,16 @@ student::student()
   }
 
 
-/*
-void student::generateuniqueid()
+
+void student::printdata()
 {
-     toi=toi+1;
-     while(toi::)
-     cout<<"\t\t\tUnique ID : "<<*i<<" "<<endl<<endl;
+    getname();
+    getid();
+    getbirth();
+    getphonenumber();
+    getaddress();
+    getemailaddress();
+    getcourseenrolledstu(1,3,5);
 }
-*/
+
 

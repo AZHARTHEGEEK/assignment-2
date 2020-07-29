@@ -188,9 +188,13 @@ void teacheroption()
     //getaddcourses();
     //b.removecourse();
     //b.getremovecourses();
+    //b.getcourseenrolledstu();
 
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\tSummary (Print data):";
+    b.printdata();   // Print Data
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
-   b.printdata();
 
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
@@ -228,29 +232,34 @@ void studentoption()
     cout<<endl<<"\t\t\t\t\t\t Welcome to Student "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
 
-    //student c;
+    student c("Muhammad Azhar", "CSC 19F 069","12/01/2002","House # 80  Nazimabad No#1 Karachi","03120001547","CSC19F069@stu.smiu.edu.pk",1,3,5,"Flat No # 15  Nazimabad No#1 Karachi","azharthegeek@gmail.com");
     //c.setname();
+    //c.getname();
     //c.generateUniqueInt();
+    //c.getid();
+    //c.setbirth();
     //c.getbirth();
 
     //c.courseenrolled();
+    //c.getcourseenrolledstu(1,3,5);
     //c.setphonenumber();
+    //c.getphonenumber();
     //c.setadress();
+    //c.getaddress();
     //c.setemailaddress();
+    // c.getemailaddress();
 
    // c.changesemailaddress();
     //c.changeaddress();
+    //c.getaddress();
    // c.changesphonenumber();
 
-    /*
-    Constructor(s)
-b. Getters, Setters for every data member (if necessary).
-c. Change of email address
-d. Change of mailing address
-e. Change of Phone Number
-f. Enroll in a course >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-    */
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\tSummary (Print data):";
+    c.printdata();   // Print Data
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
     cout<<"\t\t\t1. Run Again This Function"<<endl;
@@ -286,19 +295,13 @@ void courseoption()
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\tWelcome to Course Available list "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
- course d;
-d.courseslist();
-d.numberofstudentreg();
+    course d(12,54,22,1,3,5);
+    //d.courseslist();
+    //d.numberofstudentreg();
+    //d.courseenrolled();
+    //d.courselist();
 
-    d.courseenrolled();
-/*
-Course Name
-b. Course Code
-c. Number of students registered >>>>>>>>>>>>
-d. Teacher of the course
-*/
-
-
+    d.printdata();
 
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
@@ -337,6 +340,7 @@ person a;
 teacher b;
 student c;
 course d;
+
 
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
