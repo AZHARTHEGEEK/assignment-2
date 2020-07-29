@@ -12,18 +12,6 @@ using namespace std;
 {
     //Constructor of teacher class
 }
-//###########################################################################
-/*
-Teacher Name
-Teacher ID
-Address
-Phone Number
-Email Address
-Date of Birth
-Course(s) he/she is teaching
-*/
-//###########################################################################
-
 int teacher :: generateUniqueInt()
 {
     cout<<endl<<"\t\t\tEnter Your Unique ID Please ";
@@ -105,13 +93,13 @@ void teacher :: changesphonenumber()
 
 void teacher::printdata()
 {
-      getname();
+    getname();
     getid();
     getaddress();
-   getphonenumber();
+    getphonenumber();
     getemailaddress();
-   getbirth();
+    getbirth();
     getcourseteaching();
-   getaddcourses();
+    getaddcourses();
     getremovecourses();
 }

@@ -92,12 +92,11 @@ void mainloop()
     cout<<endl<<endl<<"\t\t\tThere Are Four Functionalities Available to work on :"<<endl;
     cout<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
 
-    cout<<"\t\t\t1. Person "<<endl;
-    cout<<"\t\t\t2. Teacher"<<endl;
-    cout<<"\t\t\t3. Student"<<endl;
-    cout<<"\t\t\t4. Course "<<endl;
-    cout<<"\t\t\t5. Run Whole Program Functionalities"<<endl;
-    cout<<"\t\t\t6. Exits";
+    cout<<"\t\t\t1.) Person  Class "<<endl;
+    cout<<"\t\t\t2.) Teacher Class"<<endl;
+    cout<<"\t\t\t3.) Student Class"<<endl;
+    cout<<"\t\t\t4.) Course  Class"<<endl;
+    cout<<"\t\t\t5.) Exits";
 
     cout<<endl<<endl<<"\t\t\tEnter the Selected Number To Continue : ";
     cin>>classselection;
@@ -121,11 +120,12 @@ void mainloop()
         system("CLS");
         courseoption();
     }
+    /*
     else if (classselection == '5' )
     {
         system("CLS");
         alloptions();
-    }
+    }*/
 }
 //#######################################################################################
 //#######################################################################################
@@ -134,7 +134,7 @@ void personoption()
 {
 
     person a("Muhammad Azhar","12/JAN/2020","House # 80  Nazimabad No#1 Karachi","Flat No # 15  Nazimabad No#1 Karachi");
-        cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Person "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
     //cout<<endl<<"\t\t\tThis Space Is Dadicated to User Define Vales \n\t\t\tIf You want to take User Values De-Comment The Below Functions define in main.cpp & in person Every Function Work Correctley";
@@ -148,10 +148,11 @@ void personoption()
     //a.getaddress();     //Getter
 
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-    cout<<endl<<"\t\t\tSummary :";
+    cout<<endl<<"\t\t\tSummary (Print Data):"<<endl;
     a.printdata();   // Print Data
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
+    // The Below Code Is Used To Switch to Different Functionalities
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
     cout<<"\t\t\t1. Run Again This Function"<<endl;
@@ -189,30 +190,31 @@ void teacheroption()
     teacher b("Zubair uddin Shaikh","PF786","House # 12 Nazimabad No 1,Karachi Pakistan", "030011111111","ZubairuddinShaikh@gmail.com ","12/01/1995","Zubair@gmail.com","0312000000","Object Oriented Programming", "Deep Learning","Bunglow # 12 Nazimabad No 1,Islamabad Pakistan","Machine Learning","Differential Mathematics" );
     //b.setname();           //To get Teacher Name      Setter
     //b.generateUniqueInt();   //To get Teacher ID      Setter
-    //getid();
-    //b.setadress();
-    //b.setphonenumber();
-    //getphonenumber()
-   //b.setemailaddress();
-   //b.getemailaddress();
-    //b.setbirth();
+    //getid();        //Getter
+    //b.setadress();            //setter
+    //b.setphonenumber();            //setter
+    //getphonenumber();        //Getter
+    //b.setemailaddress();            //setter
+    //b.getemailaddress();        //Getter
+    //b.setbirth();            //setter
     //b.changesemailaddress();
     //b.changesphonenumber();
-     //b.changeaddress();
+    //b.changeaddress();
     //b.courseenrolled();
-     //b.getcourseteaching();
-    //b.addcourse();
-    //getaddcourses();
+    //b.getcourseteaching();        //Getter
+    //b.addcourse();        //Getter
+    //getaddcourses();        //Getter
     //b.removecourse();
-    //b.getremovecourses();
-    //b.getcourseenrolledstu();
+    //b.getremovecourses();        //Getter
+    //b.getcourseenrolledstu();        //Getter
 
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-    cout<<endl<<"\t\t\tSummary (Print data):";
-    b.printdata();   // Print Data
+    cout<<endl<<"\t\t\tSummary (Print data):"<<endl;
+    b.printdata();   // Print Data             //Getter of all
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
 
+    // The Below Code Is Used To Switch to Different Functionalities
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
     cout<<"\t\t\t1. Run Again This Function"<<endl;
@@ -250,33 +252,34 @@ void studentoption()
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
 
     student c("Muhammad Azhar", "CSC 19F 069","12/01/2002","House # 80  Nazimabad No#1 Karachi","03120001547","CSC19F069@stu.smiu.edu.pk",1,3,5,"Flat No # 15  Nazimabad No#1 Karachi","azharthegeek@gmail.com");
-    //c.setname();
-    //c.getname();
-    //c.generateUniqueInt();
-    //c.getid();
-    //c.setbirth();
-    //c.getbirth();
+    //c.setname();               //setter
+    //c.getname();               //getter
+    //c.generateUniqueInt();               //getter
+    //c.getid();               //getter
+    //c.setbirth();               //setter
+    //c.getbirth();               //setter
 
-    //c.courseenrolled();
-    //c.getcourseenrolledstu(1,3,5);
-    //c.setphonenumber();
-    //c.getphonenumber();
-    //c.setadress();
-    //c.getaddress();
-    //c.setemailaddress();
-    // c.getemailaddress();
+    //c.courseenrolled();               //getter
+    //c.getcourseenrolledstu(1,3,5);               //getter
+    //c.setphonenumber();               //setter
+    //c.getphonenumber();               //getter
+    //c.setadress();               //setter
+    //c.getaddress();               //getter
+    //c.setemailaddress();               //setter
+    // c.getemailaddress();               //getter
 
-   // c.changesemailaddress();
+    // c.changesemailaddress();
     //c.changeaddress();
     //c.getaddress();
-   // c.changesphonenumber();
+    // c.changesphonenumber();
 
 
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-    cout<<endl<<"\t\t\tSummary (Print data):";
-    c.printdata();   // Print Data
+    cout<<endl<<"\t\t\tSummary (Print data):"<<endl;
+    c.printdata();    // Print Data             //Getter of all
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
+    // The Below Code Is Used To Switch to Different Functionalities
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
     cout<<"\t\t\t1. Run Again This Function"<<endl;
@@ -322,10 +325,11 @@ void courseoption()
     //d.getremovecourses();
 
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-    cout<<endl<<"\t\t\tSummary (Print data):";
-    d.printdata();   // Print Data
+    cout<<endl<<"\t\t\tSummary (Print data):"<<endl;
+    d.printdata();    // Print Data             //Getter of all
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
+    // The Below Code Is Used To Switch to Different Functionalities
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
     cout<<"\t\t\t1. Run Again This Function"<<endl;
@@ -353,9 +357,19 @@ void courseoption()
         mainloop();
         }
 }
-//#######################################################################################
-//#######################################################################################
+///#############################THE END################################################
+///#############################THE END################################################
+///#############################THE END################################################
 
+
+
+
+
+
+// Skip Below Part CreaTed to Provide more Fuctionalities
+//#######################################################################################
+//#######################################################################################
+/*
 void alloptions()
 {
 
@@ -364,23 +378,25 @@ teacher b;
 student c;
 course d;
 
+
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Person "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
-a.printdata();
+    a.printdata();
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Teacher "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
-b.printdata();
+    b.printdata();
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Student "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
-c.printdata();
+    c.printdata();
     cout<<endl<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
     cout<<endl<<"\t\t\t\t\t\t Welcome to Course "<<endl;
     cout<<"\t\t\t<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"<<endl<<endl;
-d.printdata();
+    d.printdata();
 
+    // The Below Code Is Used To Switch to Different Functionalities
     char classselection;
     cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
     cout<<"\t\t\t1. Run Again This Function"<<endl;
@@ -408,3 +424,4 @@ d.printdata();
         }
 }
 
+*/

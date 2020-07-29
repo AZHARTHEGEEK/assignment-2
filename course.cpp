@@ -253,7 +253,7 @@ void course::addcourse()
 }
 void course::getaddcourses()
 {
-    cout<<endl<<"\t\t\tNew Course Added Sussesfully "<<course3<< " & "<<course4;
+    cout<<endl<<"\t\t\tNew Course Added Sussesfully "<<course2<< " & "<<course3;
 }
 
 void course::removecourse()
@@ -287,7 +287,7 @@ void course::getremovecourses()
 
     //cout<<endl<<"\t\t\tEnter Course Number"
     //removecourse();
-    cout<<endl<<"\t\t\tSelected Course Number"<<entercoursenumber<<" Removed Sussesfully ";
+    cout<<endl<<"\t\t\tSelected Course Number "<<entercoursenumber<<" Removed Sussesfully ";
 }
 //###################################################################################################
 //#################################################################################################
